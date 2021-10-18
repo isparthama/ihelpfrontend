@@ -1,0 +1,206 @@
+ERROR - 2021-09-28 06:13:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-09-28 06:13:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '2')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 06:16:53 --> Illegal string offset 'Nama'
+#0 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\laragon\\www\\...', 79, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(160): App\Models\M_suratjalanModel->store('2', '7', '2021-09-28', '18:14', '2021-09-28', '18:14', 'Title', 'Tenant ', 'HP PIC', 'Detail_Deskrips...', '{"Nama":"Nama",...', '[{"itemcode":"1...', '[{"idfacility":...', '[{"from_time":"...')
+#2 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(33): App\Controllers\Permissionrequest->store()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-28 11:34:52 --> Undefined property: App\Controllers\Permissionrequest::$m_suratjalanfacility
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 65, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(36): App\Controllers\Permissionrequest->getdata()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-28 11:36:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'm_facility'.
+CRITICAL - 2021-09-28 11:36:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'm_facility'.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[m_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[m_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanfacilityModel.php(14): CodeIgniter\Database\BaseConnection->query('exec [dbo].[m_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(65): App\Models\M_suratjalanfacilityModel->getbysuratjalanid(80)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(36): App\Controllers\Permissionrequest->getdata()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 13:05:04 --> Undefined variable: units
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(24): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 13:07:50 --> syntax error, unexpected 'var' (T_VAR)
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('service')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('service')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-28 13:09:18 --> Class 'App\Models\T_transaksiModel' not found
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Service->__construct()
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-28 13:09:41 --> Cannot declare class App\Models\M_facilityModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-28 13:14:03 --> Undefined variable: transaksi
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 22, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(33): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 13:15:51 --> Trying to get property 'token' of non-object
+#0 C:\laragon\www\ihelpfrontend\app\Models\T_transaksiModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(31): App\Models\T_transaksiModel->getall(0, 1)
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 13:17:19 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 24, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(34): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 18:34:34 --> Undefined variable: service_status
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(34): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 18:38:41 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(38): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-28 18:39:17 --> Undefined property: stdClass::$keterangan
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(38): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-28 19:09:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'dbo.M_jeniscomplain_getall'.
+CRITICAL - 2021-09-28 19:09:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'dbo.M_jeniscomplain_getall'.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_j...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_j...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_jeniscomplainModel.php(14): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_j...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(38): App\Models\M_jeniscomplainModel->getall()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-28 19:55:13 --> Undefined variable: date_time
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(28): App\Controllers\Service->store()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 19:55:40 --> Undefined variable: token
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(28): App\Controllers\Service->store()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 19:56:02 --> Undefined variable: token
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 82, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(28): App\Controllers\Service->store()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 19:56:45 --> Too few arguments to function App\Models\T_transaksiModel::store(), 1 passed in C:\laragon\www\ihelpfrontend\app\Controllers\Service.php on line 82 and exactly 17 expected
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(82): App\Models\T_transaksiModel->store('EXECUTE [dbo].[...')
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(28): App\Controllers\Service->store()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 19:58:55 --> Too few arguments to function App\Models\T_transaksiModel::store(), 1 passed in C:\laragon\www\ihelpfrontend\app\Controllers\Service.php on line 82 and exactly 17 expected
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(82): App\Models\T_transaksiModel->store('EXECUTE [dbo].[...')
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(28): App\Controllers\Service->store()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 19:59:13 --> Too few arguments to function App\Models\T_transaksiModel::store(), 1 passed in C:\laragon\www\ihelpfrontend\app\Controllers\Service.php on line 82 and exactly 17 expected
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(82): App\Models\T_transaksiModel->store('EXECUTE [dbo].[...')
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(28): App\Controllers\Service->store()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 19:59:17 --> Too few arguments to function App\Models\T_transaksiModel::store(), 1 passed in C:\laragon\www\ihelpfrontend\app\Controllers\Service.php on line 82 and exactly 17 expected
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(82): App\Models\T_transaksiModel->store('EXECUTE [dbo].[...')
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(28): App\Controllers\Service->store()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-28 23:23:51 --> Undefined variable: transaksi_typeid
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 69, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(28): App\Controllers\Service->store()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

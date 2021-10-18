@@ -1,0 +1,69 @@
+CRITICAL - 2021-08-11 18:12:13 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-11 18:13:15 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-11 18:13:15 --> Undefined variable: upload_id
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 80, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1628556317_81dd...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-11 18:14:08 --> Undefined variable: id
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 64, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-11 18:14:27 --> Undefined variable: baris
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 83, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', '1', '1628556317_81dd...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-11 18:14:47 --> Undefined offset: 8
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 91, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', '1', '1628556317_81dd...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-11 18:17:22 --> Call to undefined function App\Controllers\len()
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', '1', '1628556317_81dd...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-11 18:45:44 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sizeof(): Param...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(77): sizeof(1)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', '1', '1628556317_81dd...')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-11 18:52:56 --> syntax error, unexpected '$baris' (T_VARIABLE)
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('upload_sas//pro...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('upload_sas//pro...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-11 18:53:39 --> str_split() expects parameter 2 to be int, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'str_split() exp...', 'C:\\laragon\\www\\...', 76, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(76): str_split('NILAI\tNAMA_PENE...', '\t')
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', '1', '1628556317_81dd...')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

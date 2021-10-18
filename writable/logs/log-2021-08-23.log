@@ -1,0 +1,309 @@
+CRITICAL - 2021-08-23 18:51:55 --> Invalid file: Upload_hasilomspam.php
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Upload_hasiloms...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_hasiloms...', Array, true)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_hasilomspam.php(37): view('Upload_hasiloms...', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_hasilomspam->daftar_upload()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_hasilomspam))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-08-23 18:59:57 --> Class 'App\Models\Upload_file_files_contentModel' not found
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Upload_file->__construct()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+ERROR - 2021-08-23 19:00:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_file_daftar'.
+CRITICAL - 2021-08-23 19:00:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_file_daftar'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(20): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(33): App\Models\Upload_fileModel->getall()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->daftar_upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2021-08-23 19:01:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'upload_file_files_content'.
+CRITICAL - 2021-08-23 19:01:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'upload_file_files_content'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(20): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(33): App\Models\Upload_fileModel->getall()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->daftar_upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-08-23 19:03:18 --> Invalid file: Upload_file_daftar.php
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Upload_file_daf...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_file_daf...', Array, true)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(37): view('Upload_file_daf...', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->daftar_upload()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+ERROR - 2021-08-23 19:05:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.master_bank'.
+CRITICAL - 2021-08-23 19:05:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.master_bank'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT *\nFROM "...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\SQLSRV\Builder.php(763): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(23): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->index()
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2021-08-23 19:05:55 --> Undefined variable: data
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 26, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->index()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-23 19:06:28 --> syntax error, unexpected 'helper' (T_STRING)
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('upload_file')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('upload_file')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-23 19:06:38 --> Invalid file: Upload_file.php
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Upload_file.php')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_file', Array, true)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(29): view('Upload_file', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->index()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-08-23 19:06:55 --> Undefined variable: bank
+#0 C:\laragon\www\penyaluranapp\app\Views\Upload_file.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 59, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_file', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(29): view('Upload_file', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->index()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-08-23 19:17:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.Upload_file'.
+CRITICAL - 2021-08-23 19:17:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.Upload_file'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "DI...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "DI...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "DI...', Array, false)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(130): CodeIgniter\Model->insert(Array)
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2021-08-23 19:23:52 --> Trying to get property 'idjenisfile' of non-object
+#0 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 22, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(130): App\Models\Upload_fileModel->insertdata(Array)
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#7 {main}
+ERROR - 2021-08-23 19:24:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_file_insert'.
+CRITICAL - 2021-08-23 19:24:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_file_insert'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(22): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(130): App\Models\Upload_fileModel->insertdata(Array)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2021-08-23 19:27:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_file_insert'.
+CRITICAL - 2021-08-23 19:27:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_file_insert'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(22): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(130): App\Models\Upload_fileModel->insertdata(Array)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2021-08-23 19:28:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'upload_file_insert' expects parameter '@created_by', which was not supplied.
+CRITICAL - 2021-08-23 19:28:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'upload_file_insert' expects parameter '@created_by', which was not supplied.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(22): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(130): App\Models\Upload_fileModel->insertdata(Array)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2021-08-23 19:28:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-08-23 19:28:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(24): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(130): App\Models\Upload_fileModel->insertdata(Array)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2021-08-23 19:29:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.Upload_file_files'.
+CRITICAL - 2021-08-23 19:29:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.Upload_file_files'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "DI...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "DI...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "DI...', Array, false)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(144): CodeIgniter\Model->insert(Array)
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2021-08-23 19:32:16 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 132, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+ERROR - 2021-08-23 19:38:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.Upload_file_files'.
+CRITICAL - 2021-08-23 19:38:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.Upload_file_files'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "DI...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "DI...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "DI...', Array, false)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(144): CodeIgniter\Model->insert(Array)
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2021-08-23 19:43:36 --> Trying to get property 'id' of non-object
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 132, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-23 19:43:58 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 132, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-23 19:44:36 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+ERROR - 2021-08-23 19:44:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.Upload_file_files'.
+CRITICAL - 2021-08-23 19:44:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'DIR_WILAYAH1.dbo.penyaluranapp.Upload_file_files'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "DI...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "DI...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO "DI...', Array, false)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(144): CodeIgniter\Model->insert(Array)
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2021-08-23 19:46:14 --> Undefined index: filename
+#0 C:\laragon\www\penyaluranapp\app\Models\Upload_file_filesModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(144): App\Models\Upload_file_filesModel->insertdata(Array)
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#7 {main}
+ERROR - 2021-08-23 19:46:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.Upload_file_files_insert'.
+CRITICAL - 2021-08-23 19:46:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.Upload_file_files_insert'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_file_filesModel.php(28): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(144): App\Models\Upload_file_filesModel->insertdata(Array)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-08-23 19:55:05 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-23 19:56:53 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-23 20:02:36 --> Array to string conversion
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->readfilehasilomspam('1', '2', '1629766362_e691...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-23 20:13:59 --> Call to undefined method App\Models\Upload_file_files_contentModel::insertdatahasilomspam
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(104): CodeIgniter\Model->__call('insertdatahasil...', Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->readfilehasilomspam('1', '2', '1629766362_e691...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-08-23 20:28:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_file_files_byuploadid'.
+CRITICAL - 2021-08-23 20:28:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_file_files_byuploadid'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_file_filesModel.php(21): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(66): App\Models\Upload_file_filesModel->findbyuploadid('1')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->proses('1')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-23 20:29:49 --> Call to undefined method App\Controllers\Upload_file::readfile()
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->proses('1')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,8 @@
+CRITICAL - 2021-09-30 00:57:32 --> Undefined variable: data_galery
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(40): App\Controllers\Service->store()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

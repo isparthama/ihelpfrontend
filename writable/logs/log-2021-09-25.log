@@ -1,0 +1,177 @@
+CRITICAL - 2021-09-25 18:48:53 --> Undefined variable: rows
+#0 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(21): view('permissionreque...')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-25 18:54:11 --> You must set the database table to be used with your query.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Model.php(137): CodeIgniter\Model->builder()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(false, NULL)
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(20): CodeIgniter\BaseModel->find()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-25 18:54:27 --> Trying to get property 'token' of non-object
+#0 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(20): App\Models\M_suratjalanModel->getall()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-25 18:55:48 --> Trying to get property 'token' of non-object
+#0 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(20): App\Models\M_suratjalanModel->getall()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-25 18:57:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Unclosed quotation mark after the character string 'B8EE1DB042304DE0B0B4D2CDCD785851
+        '.
+CRITICAL - 2021-09-25 18:57:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Unclosed quotation mark after the character string 'B8EE1DB042304DE0B0B4D2CDCD785851
+        '.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[m_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[m_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(15): CodeIgniter\Database\BaseConnection->query('exec [dbo].[m_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(20): App\Models\M_suratjalanModel->getall()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-25 18:57:28 --> Undefined variable: rows
+#0 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(22): view('permissionreque...')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-25 18:58:01 --> Too few arguments to function App\Models\M_suratjalanModel::getall(), 0 passed in C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php on line 20 and exactly 2 expected
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(20): App\Models\M_suratjalanModel->getall()
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-25 18:58:17 --> Undefined variable: rows
+#0 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(22): view('permissionreque...')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-25 18:58:35 --> Undefined variable: rows
+#0 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(22): view('permissionreque...')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-25 19:05:14 --> syntax error, unexpected '<', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#2 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(22): view('permissionreque...', Array)
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-25 19:07:54 --> Undefined property: stdClass::$Tenant_code
+#0 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 24, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(22): view('permissionreque...', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-25 19:12:31 --> Undefined property: stdClass::$judul
+#0 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 27, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(22): view('permissionreque...', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-25 20:10:16 --> Class 'App\Controllers\M_tenantModel' not found
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Permissionrequest->__construct()
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-25 20:10:55 --> Class 'App\Controllers\M_tenantModel' not found
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Permissionrequest->__construct()
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-25 20:11:18 --> Trying to get property 'tenant_code' of non-object
+#0 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(28): view('permissionreque...', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-25 20:11:52 --> Undefined property: stdClass::$tenant_code
+#0 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(28): view('permissionreque...', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-25 20:35:09 --> Undefined property: stdClass::$keterangan
+#0 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 50, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(31): view('permissionreque...', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-25 20:41:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure m_surat_ijin_detail_getall has no parameters and arguments were supplied.
+CRITICAL - 2021-09-25 20:41:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure m_surat_ijin_detail_getall has no parameters and arguments were supplied.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[m_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[m_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(14): CodeIgniter\Database\BaseConnection->query('exec [dbo].[m_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(34): App\Models\M_surat_ijin_detailModel->getall(1)
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,605 @@
+CRITICAL - 2021-08-09 02:30:06 --> Class 'App\Controllers\Upload_sasModel' not found
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 02:32:04 --> Class 'App\Controllers\Upload_sasModel' not found
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 02:34:31 --> Class 'App\Controllers\Upload_sasModel' not found
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 02:35:22 --> Invalid file: templates/header.php
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(35): view('templates/heade...', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-08-09 02:40:18 --> Undefined variable: _Post
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 02:40:30 --> Function name must be a string
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 02:40:41 --> Undefined index: nosp2d
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 02:41:34 --> Undefined index: nosp2d
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 02:42:25 --> Cannot use [] for reading
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 02:44:40 --> Allowed fields must be specified for model: App\Models\Upload_sasModel
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Uplo...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(745): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(27): CodeIgniter\BaseModel->save(Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-08-09 03:02:36 --> Undefined index: fields
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:27:13 --> Array to string conversion
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:31:55 --> Undefined variable: title
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 26, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:32:31 --> Allowed fields must be specified for model: App\Models\Upload_sasModel
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Uplo...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(745): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(37): CodeIgniter\BaseModel->save(Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-08-09 03:35:33 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-08-09 03:35:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Up...', Array, false)
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#6 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(37): CodeIgniter\BaseModel->save(Array)
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#12 {main}
+ERROR - 2021-08-09 03:36:49 --> Table 'penyaluran.upload_sas' doesn't exist
+CRITICAL - 2021-08-09 03:36:49 --> Table 'penyaluran.upload_sas' doesn't exist
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `Up...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Up...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Up...')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Up...', Array, false)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(37): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#10 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#11 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2021-08-09 03:38:12 --> Undefined index: file_upload
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:41:48 --> Call to a member function getRandomName() on array
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 03:43:54 --> Undefined index: path
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 45, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:44:19 --> Array to string conversion
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:45:15 --> Trying to get property 'path' of non-object
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 46, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:45:33 --> Undefined index: name
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 46, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:47:11 --> Undefined index: files
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:47:30 --> Undefined index: file_upload
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:48:13 --> Undefined index: UploadedFile
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:50:48 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 03:51:32 --> Undefined property: App\Controllers\Upload_sas::$galery
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 50, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:55:36 --> Class 'App\Models\Upload_sas_filesModel' not found
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Upload_sas->__construct()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 03:57:07 --> Cannot declare class App\Models\Upload_sasModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-09 03:57:26 --> Cannot declare class App\Models\Upload_sas_fileModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-09 03:57:38 --> Undefined variable: model
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 03:58:36 --> Undefined variable: upload
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+ERROR - 2021-08-09 03:59:29 --> Table 'penyaluran.upload_sas_files' doesn't exist
+CRITICAL - 2021-08-09 03:59:29 --> Table 'penyaluran.upload_sas_files' doesn't exist
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `Up...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Up...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Up...')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Up...', Array, false)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#10 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#13 {main}
+ERROR - 2021-08-09 04:00:27 --> Table 'penyaluran.upload_sas_files' doesn't exist
+CRITICAL - 2021-08-09 04:00:27 --> Table 'penyaluran.upload_sas_files' doesn't exist
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `Up...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Up...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Up...')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Up...', Array, false)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#10 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2021-08-09 04:00:53 --> Undefined index: file_upload
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 69, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 04:01:54 --> Undefined index: file_upload
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 69, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 04:05:17 --> Undefined index: file_upload
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 69, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 04:10:29 --> Undefined index: file_upload
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 69, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 04:16:53 --> Class 'App\Controllers\Time' not found
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 04:17:34 --> Undefined index: file_upload
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 73, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 04:46:12 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('upload_sas')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('upload_sas')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 08:33:48 --> Invalid file: Upload_sas_daftars.php
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Upload_sas_daft...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_sas_daft...', Array, true)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(31): view('Upload_sas_daft...')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-08-09 12:28:40 --> Trying to get property 'nosp2d' of non-object
+#0 C:\laragon\www\penyaluranapp\app\Views\Upload_sas_daftar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 52, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_sas_daft...', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(32): view('Upload_sas_daft...', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-08-09 12:30:31 --> Undefined index: jml_data
+#0 C:\laragon\www\penyaluranapp\app\Views\Upload_sas_daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 57, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_sas_daft...', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(32): view('Upload_sas_daft...', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-08-09 12:31:54 --> Undefined variable: db
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 12:33:29 --> Undefined property: App\Controllers\Upload_sas::$db
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 12:35:21 --> Call to undefined function App\Models\query()
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(28): App\Models\Upload_sasModel->getall()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 12:35:38 --> Undefined variable: db
+#0 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(28): App\Models\Upload_sasModel->getall()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#7 {main}
+ERROR - 2021-08-09 12:35:49 --> PROCEDURE penyaluran.upload_sas_daftar does not exist
+CRITICAL - 2021-08-09 12:35:49 --> PROCEDURE penyaluran.upload_sas_daftar does not exist
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('call upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('call upload_sas...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('call upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(20): CodeIgniter\Database\BaseConnection->query('call upload_sas...')
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(28): App\Models\Upload_sasModel->getall()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-08-09 12:37:12 --> Cannot use object of type mysqli as array
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_sas_daft...', Array, true)
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(32): view('Upload_sas_daft...', Array)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-08-09 12:38:03 --> Undefined property: mysqli::$nosp2d
+#0 C:\laragon\www\penyaluranapp\app\Views\Upload_sas_daftar.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 54, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_sas_daft...', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(32): view('Upload_sas_daft...', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-08-09 17:46:38 --> Undefined property: stdClass::$jml_data
+#0 C:\laragon\www\penyaluranapp\app\Views\Upload_sas_daftar.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_sas_daft...', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(32): view('Upload_sas_daft...', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-08-09 18:13:04 --> Operand should contain 1 column(s)
+CRITICAL - 2021-08-09 18:13:04 --> Operand should contain 1 column(s)
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('call upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('call upload_sas...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('call upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(20): CodeIgniter\Database\BaseConnection->query('call upload_sas...')
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(31): App\Models\Upload_sasModel->getall()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-08-09 19:14:05 --> Too few arguments to function App\Controllers\Upload_sas::proses(), 0 passed in C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-08-09 19:16:01 --> Undefined property: App\Controllers\Upload_sas::$upload_files
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 61, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 19:16:16 --> Call to undefined method App\Models\Upload_sas_filesModel::findbyuploadid
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(61): CodeIgniter\Model->__call('findbyuploadid', Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+ERROR - 2021-08-09 19:17:08 --> PROCEDURE penyaluran.upload_sas_files does not exist
+CRITICAL - 2021-08-09 19:17:08 --> PROCEDURE penyaluran.upload_sas_files does not exist
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('call upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('call upload_sas...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('call upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_filesModel.php(19): CodeIgniter\Database\BaseConnection->query('call upload_sas...')
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(61): App\Models\Upload_sas_filesModel->findbyuploadid('1')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-08-09 19:17:30 --> PROCEDURE penyaluran.upload_sas_files_byuploadid does not exist
+CRITICAL - 2021-08-09 19:17:30 --> PROCEDURE penyaluran.upload_sas_files_byuploadid does not exist
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('call upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('call upload_sas...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('call upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_filesModel.php(19): CodeIgniter\Database\BaseConnection->query('call upload_sas...')
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(61): App\Models\Upload_sas_filesModel->findbyuploadid('1')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-08-09 19:21:16 --> Undefined property: mysqli::$file_name
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 63, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 19:28:19 --> Call to undefined function App\Controllers\read_file()
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): App\Controllers\Upload_sas->readfile('1628550660_79fb...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('9')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 19:28:35 --> Call to undefined function App\Controllers\read_file()
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): App\Controllers\Upload_sas->readfile('1628550660_79fb...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('9')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 19:29:00 --> Undefined property: App\Controllers\Upload_sas::$load
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 61, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('9')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 19:29:23 --> Call to undefined function App\Controllers\read_file()
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): App\Controllers\Upload_sas->readfile('1628550660_79fb...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('9')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-08-09 19:30:49 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-09 19:37:26 --> Too few arguments to function App\Controllers\Upload_sas::proses(), 0 passed in C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 19:37:34 --> file(http://localhost:8080/uploads/1628550660_79fb074da59c0424cb49.txt): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file(http://loc...', 'C:\\laragon\\www\\...', 70, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(70): file('http://localhos...')
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): App\Controllers\Upload_sas->readfile('1628550660_79fb...')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('9')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-09 19:48:43 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-09 19:49:43 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-09 19:52:37 --> Undefined variable: com
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): App\Controllers\Upload_sas->readfile('1628556317_81dd...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 19:54:51 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

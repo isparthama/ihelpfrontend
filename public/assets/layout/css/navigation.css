@@ -1,0 +1,380 @@
+.navbar-brand{
+  color : white;
+  text-transform: uppercase;;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: white;
+  text-shadow: #ffffff 0 0;
+}
+.navbar-default .container {
+    transition: all 0.5s;
+}
+
+/*@media (min-width: 1024px){
+}*/
+.navbar.active {
+  box-shadow: #3e3e3e 0 0 3px 1px !important;
+}
+.page-header.navbar{
+    min-height: auto !important;
+    height: auto !important;
+}
+
+.page-header .navbar{
+  background-color: #d75748;
+  border-color : transparent;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-brand{
+  color : white;
+}
+.navbar-default .navbar-toggle{
+  border: none;
+}
+.navbar-default .navbar-toogle .badge.hidden {
+  display: none;
+}
+.navbar-default .navbar-toggle , .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color : #bb4d41;
+  color: white;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color : #bb4d41;
+  color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  color : white;
+  background-color:white !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #bb4d41;
+    color: #fff;
+}
+
+.navbar-default .dropdown-menu {
+    background-color: #bb4d41;
+    border: none;
+    box-shadow: 3px 3px 3px 0px rgba(215, 87, 72, 0.28);
+}
+
+.navbar-default .dropdown-menu>li>a {
+  color:white;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+    background-color: #bb4d41;
+}
+
+.dropdown-submenu:hover>a:after, .dropdown-menu > li > a:focus {
+    border-left-color: #fff;
+}
+
+.dropdown-menu li:hover>a {
+   background-color: #ce7368;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.nav .navbar-nav .navbar-right {
+  margin-right: 0px !important;
+}
+.dropdown-user {
+  width: 175px;
+}
+.dropdown-user .username {
+    width: 90px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    line-height: 2em;
+}
+.dropdown-user.open .dropdown-menu {
+  background-color: #bb4d41;
+}
+.dropdown-user .accountInfo li {
+  text-align: center;
+}
+.dropdown-user i{
+  color: white !important;
+}
+
+#header_inbox_bar span{
+  position: absolute;
+  background-color: #ffffff;
+  color: #d75748;
+}
+
+.navbar-default .dropdown-menu.notify-drop {
+  min-width: 330px;
+  /*background-color: #fff;*/
+  /* min-height: 360px; */
+  max-height: 360px;
+}
+.navbar-default .dropdown-menu.notify-drop .notify-drop-title {
+  color: white;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 5px 15px 10px 15px;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content {
+  min-height: 280px;
+  max-height: 280px;
+  overflow-y: scroll;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content::-webkit-scrollbar-track
+{
+  background-color: #F5F5F5;
+}
+
+.navbar-default .dropdown-menu.notify-drop .drop-content::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+.navbar-default .dropdown-menu.notify-drop .drop-content::-webkit-scrollbar-thumb
+{
+  background-color: #ccc;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 10px 0px 5px 0px;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li a {
+  color: white;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li:nth-child(2n+0) {
+  background-color: #84352d;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li:hover {
+  background-color: #92372d;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li:hover a {
+  color: white;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li:last-child {
+  border-bottom: none;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li .notify-img {
+  /* float: left; */
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin: 0px 0px 8px 0px;
+  font-size: x-large;
+}
+.navbar-default .dropdown-menu.notify-drop .allRead {
+  margin-right: 7px;
+}
+.navbar-default .dropdown-menu.notify-drop .rIcon {
+  float: right;
+  color: #f9d6d2;
+}
+.navbar-default .dropdown-menu.notify-drop .rIcon:hover {
+  color: white;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li a {
+  font-size: 12px;
+  font-weight: normal;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li {
+  font-weight: bold;
+  font-size: 11px;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li hr {
+  margin: 5px 0;
+  width: 90%;
+  border-color: #e2e2e2;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li hr.hidden {
+  display: none;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li .body {
+  color: white;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content .pd-l0 {
+  padding-left: 0;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li p {
+  font-size: 11px;
+  color: #666;
+  font-weight: normal;
+  margin: 3px 0;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content > li .time {
+    font-size: 10px;
+    font-weight: 600;
+    top: -6px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px 3px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    color: white;
+    width: 100%;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content i, #SideNotif i {
+    float   :right;
+    color   : white;
+}
+.navbar-default .dropdown-menu.notify-drop .drop-content i.read, #SideNotif i.read {
+    color : gray;
+}
+.navbar-default .dropdown-menu.notify-drop .notify-drop-footer {
+  border-top: 1px solid #e2e2e2;
+  bottom: 0;
+  position: relative;
+  padding: 8px 15px;
+}
+.navbar-default .dropdown-menu.notify-drop .notify-drop-footer a {
+  color: #f9d6d2;
+  text-decoration: none;
+}
+.navbar-default .dropdown-menu.notify-drop .notify-drop-footer a:hover {
+  color: white;
+}
+
+/*SIDE NAVIGATION BAR FOR MOBILE*/
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  z-index: 999 !important;
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #d75748;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a, .side-dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* When you mouse over the navigation links, change their color */
+/*.sidenav a:hover, .side-dropdown-btn:hover {
+  color: #6b5e5e;
+}*/
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 50px;
+  font-size: 36px;
+  width: 10px;
+  right: 30px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.sidenav .active {
+  background-color: #f38477;
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #f38477;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (min-width: 992px) {
+  .sidenav {width: 0px !important;}
+}
+
+#SideNotif .notif{
+    margin: 10px;
+    background: #e0e0e0;
+    border-radius: 5px !important;
+    padding: 10px;
+    border: 2px solid #737373;
+    box-shadow: #737373 0 1px 6px 0px;
+}
+#SideNotif .notif .title{
+  text-decoration: underline;
+}

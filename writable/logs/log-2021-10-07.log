@@ -1,0 +1,39 @@
+CRITICAL - 2021-10-07 04:16:29 --> Undefined property: stdClass::$building
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 30, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(59): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 04:39:24 --> Undefined offset: 0
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 48, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-07 04:47:46 --> The original file is not a valid file.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(78): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\...', '1633600066_05d6...')
+#2 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(40): App\Controllers\Service->store()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-07 04:49:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-07 04:49:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '133')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

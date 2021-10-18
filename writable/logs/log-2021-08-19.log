@@ -1,0 +1,234 @@
+ERROR - 2021-08-19 17:36:09 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2021-08-19 17:36:09 --> Unable to connect to the database.
+Main connection [sqlsrv]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(20): CodeIgniter\Database\BaseConnection->query('call upload_sas...')
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(33): App\Models\Upload_sasModel->getall()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+ERROR - 2021-08-19 17:36:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'call'.
+CRITICAL - 2021-08-19 17:36:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'call'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('call upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('call upload_sas...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(20): CodeIgniter\Database\BaseConnection->query('call upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(33): App\Models\Upload_sasModel->getall()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2021-08-19 17:37:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'eecS'.
+CRITICAL - 2021-08-19 17:37:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'eecS'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('eecS upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('eecS upload_sas...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(20): CodeIgniter\Database\BaseConnection->query('eecS upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(33): App\Models\Upload_sasModel->getall()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2021-08-19 17:37:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'upload_sas_daftar'.
+CRITICAL - 2021-08-19 17:37:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'upload_sas_daftar'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec upload_sas...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(20): CodeIgniter\Database\BaseConnection->query('exec upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(33): App\Models\Upload_sasModel->getall()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2021-08-19 17:51:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'upload_ack_daftar'.
+CRITICAL - 2021-08-19 17:51:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'upload_ack_daftar'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec upload_ack...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec upload_ack...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_ackModel.php(20): CodeIgniter\Database\BaseConnection->query('exec upload_ack...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_ack_himbara.php(27): App\Models\Upload_ackModel->getall()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_ack_himbara->daftar_upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_ack_himbara))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-08-19 17:53:25 --> Invalid file: Upload_ack_daftar.php
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Upload_ack_daft...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_ack_daft...', Array, true)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_ack_himbara.php(31): view('Upload_ack_daft...', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_ack_himbara->daftar_upload()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_ack_himbara))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#8 {main}
+ERROR - 2021-08-19 18:02:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '1'.
+CRITICAL - 2021-08-19 18:02:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '1'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('call upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('call upload_sas...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_filesModel.php(21): CodeIgniter\Database\BaseConnection->query('call upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): App\Models\Upload_sas_filesModel->findbyuploadid('1')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2021-08-19 18:03:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '1'.
+CRITICAL - 2021-08-19 18:03:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '1'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec upload_sas...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_filesModel.php(21): CodeIgniter\Database\BaseConnection->query('exec upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): App\Models\Upload_sas_filesModel->findbyuploadid('1')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-08-19 18:04:24 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-19 18:19:37 --> There is no data to insert.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(100): CodeIgniter\Model->insert(Array)
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', 1, '1629414072_083f...')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-19 18:48:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'upload_sas_daftar'.
+CRITICAL - 2021-08-19 18:48:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'upload_sas_daftar'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec upload_sas...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec upload_sas...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(20): CodeIgniter\Database\BaseConnection->query('exec upload_sas...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(33): App\Models\Upload_sasModel->getall()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-08-19 19:04:08 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\BaseModel.php(735): CodeIgniter\BaseModel->transformDataToArray('1', 'insert')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert('1', true)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(97): CodeIgniter\Model->insert('1', true, Array)
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', 1, '1629414072_083f...')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-19 19:09:46 --> Undefined variable: uploadid
+#0 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_files_contentModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(97): App\Models\Upload_sas_files_contentModel->insertdata('1', 1, Array)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', 1, '1629414072_083f...')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-19 19:10:07 --> Array to string conversion
+#0 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_files_contentModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(97): App\Models\Upload_sas_files_contentModel->insertdata('1', 1, Array)
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', 1, '1629414072_083f...')
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-08-19 19:10:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp_update_sas_file_contentbatch'.
+CRITICAL - 2021-08-19 19:10:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp_update_sas_file_contentbatch'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_files_contentModel.php(38): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(97): App\Models\Upload_sas_files_contentModel->insertdata('1', 1, '[{"NILAI":"2000...')
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', 1, '1629414072_083f...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-19 19:11:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp_update_sas_file_contentbatch'.
+CRITICAL - 2021-08-19 19:11:42 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp_update_sas_file_contentbatch'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_files_contentModel.php(38): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(97): App\Models\Upload_sas_files_contentModel->insertdata('1', 1, '[{"NILAI":"2000...')
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', 1, '1629414072_083f...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-19 19:14:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp_update_sas_file_contentbatch'.
+CRITICAL - 2021-08-19 19:14:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp_update_sas_file_contentbatch'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_files_contentModel.php(38): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(97): App\Models\Upload_sas_files_contentModel->insertdata('1', 1, '[{"NILAI":"2000...')
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', 1, '1629414072_083f...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-19 19:15:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp_update_sas_file_contentbatch'.
+CRITICAL - 2021-08-19 19:15:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp_update_sas_file_contentbatch'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sas_files_contentModel.php(38): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(97): App\Models\Upload_sas_files_contentModel->insertdata('1', 1, '[{"NILAI":"2000...')
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(66): App\Controllers\Upload_sas->readfile('1', 1, '1629414072_083f...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-19 19:25:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_sas_clearfilecontent'.
+CRITICAL - 2021-08-19 19:25:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Could not find stored procedure 'penyaluranapp.upload_sas_clearfilecontent'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(24): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(64): App\Models\Upload_sasModel->clearfilecontent('1')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->proses('1')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-19 19:38:37 --> Undefined property: stdClass::$jml_data
+#0 C:\laragon\www\penyaluranapp\app\Views\Upload_sas_daftar.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 61, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Upload_sas_daft...', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(37): view('Upload_sas_daft...', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2021-08-19 19:39:23 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'upload_sas_file_content'.
+CRITICAL - 2021-08-19 19:39:23 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'upload_sas_file_content'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_sasModel.php(20): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_sas.php(33): App\Models\Upload_sasModel->getall()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_sas->daftar_upload()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_sas))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\laragon\\www\\...')
+#9 {main}

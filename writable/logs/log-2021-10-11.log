@@ -1,0 +1,423 @@
+CRITICAL - 2021-10-11 13:28:43 --> Undefined variable: username
+#0 C:\laragon\www\ihelpfrontend\app\Views\menu.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Dashboard.php(21): view('menu')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 13:30:36 --> Undefined variable: user
+#0 C:\laragon\www\ihelpfrontend\app\Views\menu.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Dashboard.php(22): view('menu')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 13:30:54 --> Trying to get property 'nama_lengkap' of non-object
+#0 C:\laragon\www\ihelpfrontend\app\Views\menu.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Dashboard.php(22): view('menu', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 13:31:37 --> Undefined variable: user
+#0 C:\laragon\www\ihelpfrontend\app\Views\menu.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(59): view('menu')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 13:32:17 --> Undefined variable: user
+#0 C:\laragon\www\ihelpfrontend\app\Views\menu.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(59): view('menu')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 13:32:52 --> Undefined variable: user
+#0 C:\laragon\www\ihelpfrontend\app\Views\menu.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(58): view('menu')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 14:35:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '2021X1' to data type int.
+CRITICAL - 2021-10-11 14:35:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '2021X1' to data type int.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[m_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[m_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(72): CodeIgniter\Database\BaseConnection->query('exec [dbo].[m_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(162): App\Models\M_suratjalanModel->store('129', '7', '2021-10-12', '02:34', '2021-10-12', '08:34', 'Title', 'Tenant ', 'HP PIC', 'Detail_Deskrips...', '{"Nama":"","Kon...', '[{"itemcode":"1...', '[{"idfacility":...', '[{"from_time":"...')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(35): App\Controllers\Permissionrequest->store()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 14:38:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '2021X1' to data type int.
+CRITICAL - 2021-10-11 14:38:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '2021X1' to data type int.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[m_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[m_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(72): CodeIgniter\Database\BaseConnection->query('exec [dbo].[m_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(162): App\Models\M_suratjalanModel->store('129', '7', '2021-10-12', '02:34', '2021-10-12', '08:34', 'Title', 'Tenant ', 'HP PIC', 'Detail_Deskrips...', '{"Nama":"","Kon...', '[{"itemcode":"1...', '[{"idfacility":...', '[{"from_time":"...')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(35): App\Controllers\Permissionrequest->store()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 14:50:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '2021X1' to data type int.
+CRITICAL - 2021-10-11 14:50:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '2021X1' to data type int.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[m_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[m_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(72): CodeIgniter\Database\BaseConnection->query('exec [dbo].[m_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(162): App\Models\M_suratjalanModel->store('129', '7', '2021-10-12', '02:34', '2021-10-12', '08:34', 'Title', 'Tenant ', 'HP PIC', 'Detail_Deskrips...', '{"Nama":"","Kon...', '[{"itemcode":"1...', '[{"idfacility":...', '[{"from_time":"...')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(35): App\Controllers\Permissionrequest->store()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 15:01:05 --> Undefined property: stdClass::$id
+#0 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 80, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(162): App\Models\M_suratjalanModel->store('129', '7', '2021-10-12', '03:00', '2021-10-12', '03:00', 'Title', 'Tenant ', 'HP PIC', 'Detail_Deskrips...', '{"Nama":"Nama",...', '[{"itemcode":"1...', '[{"idfacility":...', '[{"from_time":"...')
+#2 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(35): App\Controllers\Permissionrequest->store()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-11 15:15:22 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\ihelpfrontend\app\Views\permissionrequest.php(36): date_format('2021-10-05 00:0...', 'Y/m/d')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('permissionreque...', Array, true)
+#5 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(60): view('permissionreque...', Array)
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#8 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-11 16:03:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:03:41 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:06:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:06:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:06:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:06:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:09:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:09:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('7', '')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:09:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:09:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:11:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:11:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('7', '')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:11:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:11:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:27:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:27:19 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:28:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:28:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:30:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:30:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:33:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:33:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:34:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:34:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:34:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:34:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:38:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:38:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:43:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:43:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:47:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:47:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:48:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:48:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:52:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:52:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:53:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:53:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-11 16:56:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+CRITICAL - 2021-10-11 16:56:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ','.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[M_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[M_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_surat_ijin_detailModel.php(13): CodeIgniter\Database\BaseConnection->query('exec [dbo].[M_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(27): App\Models\M_surat_ijin_detailModel->getall('', '1')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Surat_jalan_detail.php(18): App\Controllers\Surat_jalan_detail->getall()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Surat_jalan_detail->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat_jalan_detail))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 16:57:53 --> Undefined property: stdClass::$building
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 30, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(59): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 16:59:10 --> The original file is not a valid file.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(73): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\...', '1633989550_dc70...')
+#2 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(40): App\Controllers\Service->store()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-11 17:06:46 --> The original file is not a valid file.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(75): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\...', '1633990006_f0a7...')
+#2 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(40): App\Controllers\Service->store()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-11 17:07:07 --> The original file is not a valid file.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(81): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\...', '1633990027_1d90...')
+#2 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(40): App\Controllers\Service->store()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-11 18:09:11 --> Undefined variable: rowstatus
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 37, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(59): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-11 18:09:35 --> Undefined property: stdClass::$nextstatus
+#0 C:\laragon\www\ihelpfrontend\app\Views\service.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 37, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('service', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(59): view('service', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

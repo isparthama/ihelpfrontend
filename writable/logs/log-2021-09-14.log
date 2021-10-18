@@ -1,0 +1,66 @@
+ERROR - 2021-09-14 22:24:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+ERROR - 2021-09-14 22:24:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+ERROR - 2021-09-14 22:24:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-14 22:24:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(22): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(101): App\Models\Upload_fileModel->getall('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->daftar_upload('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-14 22:24:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(22): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(101): App\Models\Upload_fileModel->getall('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->daftar_upload('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-14 22:24:03 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Upload_fileModel.php(22): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Upload_file.php(101): App\Models\Upload_fileModel->getall('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Upload_file->daftar_upload('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload_file))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-14 22:24:07 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-14 22:24:07 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(99): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-14 22:24:07 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-14 22:24:07 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(99): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-14 22:24:08 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-14 22:24:08 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(99): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

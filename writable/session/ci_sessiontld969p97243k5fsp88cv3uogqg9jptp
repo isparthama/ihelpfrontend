@@ -1,0 +1,20 @@
+__ci_last_regenerate|i:1632183761;_ci_previous_url|s:81:"http://localhost:8080/penyaluranapp/public/index.php/Monitoring_data/monitoring/8";userinfo|a:4:{s:2:"id";i:1;s:9:"user_name";s:5:"admin";s:4:"name";s:13:"Administrator";s:9:"logged_in";b:1;}sql|s:1860:"select 
+        (select top 1 nama_prop from dtks_pfm where no_prop=a.idpropinsi) as nama_prop,
+        (select top 1 nama_kab from dtks_pfm where no_prop=a.idpropinsi and cast(no_kab as int)=cast(a.idkabkota as int)) as nama_kab,
+        (select top 1 nama_kec from dtks_pfm where no_prop=a.idpropinsi and cast(no_kab as int)=cast(a.idkabkota as int) and cast(no_kec as int)=cast(a.idkecamatan as int)) as nama_kec,
+        (select top 1 nama_kel from dtks_pfm where no_prop=a.idpropinsi and cast(no_kab as int)=cast(a.idkabkota as int) and cast(no_kec as int)=cast(a.idkecamatan as int) and cast(NO_KEL as int)=cast(a.iddesakel as int))  as nama_kel,
+        a.* from v_upload_cari_kpm_files_content a
+        where 1=1 
+        and isnull(file_id,'')=case when ''='' then isnull(file_id,'') else '' end
+        and isnull(idsemesta,'')=case when ''='' then isnull(idsemesta,'') else '' end
+        and isnull(nik,'')=case when ''='' then isnull(nik,'') else '' end
+        and isnull(periode,'')=case when ''='' then isnull(periode,'') else '' end
+        and isnull(jenis_kelamin,'')=case when ''='' then isnull(jenis_kelamin,'') else '' end
+        and isnull(status_pm,'')=case when ''='' then isnull(status_pm,'') else '' end
+        and cast(iddesakel as int)=case when ''='' then cast(iddesakel as int) else '' end
+        and cast(idkecamatan as int)=case when ''='' then cast(idkecamatan as int) else '' end
+        and cast(idkabkota as int)=case when ''='' then cast(idkabkota as int) else '' end
+        and cast(idpropinsi as int)=case when ''='' then cast(idpropinsi as int) else '' end
+        and isnull(refid,'')=case when ''='' then isnull(refid,'') else '' end
+        and isnull(refidomspambfr,'')=case when ''='' then isnull(refidomspambfr,'') else '' end
+         order by id asc offset 0 rows fetch next 10 rows only";

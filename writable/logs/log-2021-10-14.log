@@ -1,0 +1,26 @@
+CRITICAL - 2021-10-14 02:28:47 --> Undefined variable: config
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(205): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 205, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->sendEmail('', 'isparthama@gmai...', 'test send email', 'content email')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-14 02:53:48 --> Undefined variable: email
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Permissionrequest.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 209, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->sendEmail('', 'isparthama@gmai...', 'test send email', 'content email')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-14 02:56:32 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to mail.cowellcommercial.com:587 (No connection could be made because the target machine actively refused it.
+)
+ERROR - 2021-10-14 03:04:52 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to mail.cowellcommercial.com:587 (No connection could be made because the target machine actively refused it.
+)
+ERROR - 2021-10-14 07:09:05 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to mail.cowellcommercial.com:587 (No connection could be made because the target machine actively refused it.
+)
+ERROR - 2021-10-14 07:09:30 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to mail.cowellcommercial.com:587 (No connection could be made because the target machine actively refused it.
+)
+ERROR - 2021-10-14 08:49:09 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to mail.gts.id:587 (No connection could be made because the target machine actively refused it.
+)
+ERROR - 2021-10-14 08:55:31 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to mail.cowellcommercial.com:587 (No connection could be made because the target machine actively refused it.
+)

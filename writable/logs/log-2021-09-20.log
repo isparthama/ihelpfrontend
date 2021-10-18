@@ -1,0 +1,763 @@
+ERROR - 2021-09-20 19:00:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:00:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:00:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:00:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:00:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:00:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 19:00:16 --> Undefined property: stdClass::$no_rekening
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_cari_kpm.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 170, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_cari_kpm->download('8')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_cari_kpm))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 19:00:18 --> Undefined property: stdClass::$no_rekening
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_cari_kpm.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 170, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_cari_kpm->download('8')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_cari_kpm))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 19:00:25 --> Undefined property: stdClass::$no_rekening
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_cari_kpm.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 170, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_cari_kpm->download('8')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_cari_kpm))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 19:00:56 --> Undefined property: stdClass::$no_rekening
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_cari_kpm.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 170, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_cari_kpm->download('8')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_cari_kpm))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-20 19:12:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:12:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:12:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:12:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:12:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:12:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:13:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:13:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:13:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:13:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:13:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:13:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:14:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:14:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:14:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:14:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:14:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:14:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:16:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:16:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:16:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:16:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:16:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:16:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:16:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:16:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:16:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:16:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:16:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:16:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:17:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:17:08 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:17:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:17:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:17:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:17:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 19:21:26 --> Undefined variable: columns
+#0 C:\laragon\www\penyaluranapp\app\Views\monitoring_cari_kpm.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 154, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('monitoring_cari...', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(150): view('monitoring_cari...', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('8')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-20 19:21:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:21:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:21:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:21:29 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:21:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:21:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 19:22:41 --> You must set the database table to be used with your query.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(51): CodeIgniter\Model->__call('getcolumns', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('8')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-09-20 19:30:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:30:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:30:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:30:06 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:30:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:30:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 19:31:32 --> Trying to get property 'fields' of non-object
+#0 C:\laragon\www\penyaluranapp\app\Views\monitoring_cari_kpm.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 156, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('monitoring_cari...', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(150): view('monitoring_cari...', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('8')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-20 19:31:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:31:34 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:31:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:31:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:31:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:31:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-20 19:31:57 --> Trying to get property 'label' of non-object
+#0 C:\laragon\www\penyaluranapp\app\Views\monitoring_cari_kpm.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 157, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('monitoring_cari...', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(150): view('monitoring_cari...', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('8')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-20 19:31:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:31:58 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:32:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:32:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:32:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:32:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:32:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:32:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:32:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:32:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:32:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:32:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:32:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:32:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:32:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:32:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:32:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:32:37 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:33:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:33:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:33:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:33:53 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:33:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:33:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:34:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:34:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:34:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:34:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:34:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:34:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:34:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:34:44 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:34:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:34:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:34:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:34:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:37:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:37:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:37:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:37:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:37:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:37:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:39:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:39:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:39:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:39:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:39:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:39:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:41:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:41:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:41:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:41:56 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 19:41:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 19:41:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 20:01:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 20:01:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 20:01:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 20:01:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 20:01:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 20:01:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 20:02:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 20:02:47 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 20:02:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 20:02:48 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-20 20:02:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+CRITICAL - 2021-09-20 20:02:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to int.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec penyaluran...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec penyaluran...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Master_jenisfileModel.php(19): CodeIgniter\Database\BaseConnection->query('exec penyaluran...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(106): App\Models\Master_jenisfileModel->getbyid('assets')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

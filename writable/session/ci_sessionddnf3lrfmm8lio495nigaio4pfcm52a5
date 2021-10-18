@@ -1,0 +1,12 @@
+__ci_last_regenerate|i:1632095879;_ci_previous_url|s:81:"http://localhost:8080/penyaluranapp/public/index.php/Monitoring_data/monitoring/0";userinfo|a:4:{s:2:"id";i:1;s:9:"user_name";s:5:"admin";s:4:"name";s:13:"Administrator";s:9:"logged_in";b:1;}sql|s:1341:"select 
+        (select top 1 nama_bank from [penyaluranapp].[master_bank] where kode_bank=a.kode_bank) as nama_bank,
+        (select top 1 nama_prop from dtks_pfm where no_prop=left(a.kode_wilayah,2)) as nama_prop,
+        (select top 1 nama_kab from dtks_pfm where no_prop=left(a.kode_wilayah,2) and cast(no_kab as int)=cast(substring(A.KODE_WILAYAH,3,2) as int)) as nama_kab,
+        (select top 1 nama_kec from dtks_pfm where no_prop=left(a.kode_wilayah,2) and cast(no_kab as int)=cast(substring(A.KODE_WILAYAH,3,2) as int) and cast(no_kec as int)=cast(substring(A.KODE_WILAYAH,5,2) as int)) as nama_kec,
+        (select top 1 nama_kel from dtks_pfm where no_prop=left(a.kode_wilayah,2) and cast(no_kab as int)=cast(substring(A.KODE_WILAYAH,3,2) as int) and cast(no_kec as int)=cast(substring(A.KODE_WILAYAH,5,2) as int) and cast(NO_KEL as int)=cast(substring(A.KODE_WILAYAH,7,4) as int))  as nama_kel,
+        a.* from [penyaluranapp].[upload_sas_files_content] a
+        where 1=1 
+        and isnull(KODE_WILAYAH,'') like case when '180703'='' then isnull(KODE_WILAYAH,'') else '180703%' end 
+        and isnull(TAHAP,'')=case when ''='' then isnull(TAHAP,'') else '' end 
+        and isnull(KODE_BANK,'')=case when ''='' then isnull(KODE_BANK,'') else '' end 
+         order by id asc offset 0 rows fetch next 10 rows only";

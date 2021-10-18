@@ -1,0 +1,53 @@
+ERROR - 2021-10-03 19:17:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "g.keterangan" could not be bound.
+CRITICAL - 2021-10-03 19:17:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "g.keterangan" could not be bound.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[t_t...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[t_t...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\T_transaksiModel.php(19): CodeIgniter\Database\BaseConnection->query('exec [dbo].[t_t...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(44): App\Models\T_transaksiModel->getall(0, 1)
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-03 19:20:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "g.keterangan" could not be bound.
+CRITICAL - 2021-10-03 19:20:36 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "g.keterangan" could not be bound.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[t_t...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[t_t...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\T_transaksiModel.php(20): CodeIgniter\Database\BaseConnection->query('exec [dbo].[t_t...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(44): App\Models\T_transaksiModel->getall(0, 1)
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-03 20:19:41 --> Error connecting to the database: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+CRITICAL - 2021-10-03 20:19:41 --> Unable to connect to the database.
+Main connection [SQLSRV]: . 
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\ihelpfrontend\app\Models\T_transaksiModel.php(18): CodeIgniter\Database\BaseConnection->query('exec [dbo].[t_t...')
+#2 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(44): App\Models\T_transaksiModel->getall(0, 1)
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-03 21:34:08 --> [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+ERROR - 2021-10-03 21:34:08 --> Error connecting to the database: [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+ERROR - 2021-10-03 21:34:08 --> [Microsoft][ODBC Driver 17 for SQL Server]The connection is broken and recovery is not possible. The connection is marked by the client driver as unrecoverable. No attempt was made to restore the connection.
+CRITICAL - 2021-10-03 21:34:08 --> [Microsoft][ODBC Driver 17 for SQL Server]The connection is broken and recovery is not possible. The connection is marked by the client driver as unrecoverable. No attempt was made to restore the connection.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[t_t...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[t_t...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\T_transaksiModel.php(24): CodeIgniter\Database\BaseConnection->query('exec [dbo].[t_t...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(132): App\Models\T_transaksiModel->get('53')
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Service.php(41): App\Controllers\Service->getdata()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Service->index()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

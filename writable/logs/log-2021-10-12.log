@@ -1,0 +1,109 @@
+CRITICAL - 2021-10-12 11:00:27 --> Cannot declare class App\Controllers\Dashboard, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 11:03:30 --> Class 'Dompdf\Dompdf' not found
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Cetak->permissionrequest()
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-12 11:17:44 --> Invalid file: formpermissionrequest.php
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formpermissionr...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('formpermissionr...', Array, true)
+#2 C:\laragon\www\ihelpfrontend\app\Controllers\Cetak.php(23): view('formpermissionr...', Array)
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Cetak->permissionrequest()
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-12 18:10:12 --> Undefined variable: data
+#0 C:\laragon\www\ihelpfrontend\app\Views\formpermissionrequest.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 2, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('formpermissionr...', Array, true)
+#4 C:\laragon\www\ihelpfrontend\app\Controllers\Cetak.php(23): view('formpermissionr...', Array)
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Cetak->permissionrequest()
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#7 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-12 18:13:57 --> Undefined property: App\Controllers\Cetak::$model
+#0 C:\laragon\www\ihelpfrontend\app\Controllers\Cetak.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 22, Array)
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Cetak->permissionrequest()
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-12 18:14:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'm_suratjalan_get' expects parameter '@id', which was not supplied.
+CRITICAL - 2021-10-12 18:14:51 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'm_suratjalan_get' expects parameter '@id', which was not supplied.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[m_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[m_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(24): CodeIgniter\Database\BaseConnection->query('exec [dbo].[m_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Cetak.php(38): App\Models\M_suratjalanModel->get(NULL)
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Cetak->permissionrequest()
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-12 18:21:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'm_suratjalan_get' expects parameter '@id', which was not supplied.
+CRITICAL - 2021-10-12 18:21:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Procedure or function 'm_suratjalan_get' expects parameter '@id', which was not supplied.
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('exec [dbo].[m_s...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('exec [dbo].[m_s...')
+#2 C:\laragon\www\ihelpfrontend\app\Models\M_suratjalanModel.php(24): CodeIgniter\Database\BaseConnection->query('exec [dbo].[m_s...')
+#3 C:\laragon\www\ihelpfrontend\app\Controllers\Cetak.php(38): App\Models\M_suratjalanModel->get(NULL)
+#4 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Cetak->permissionrequest('93')
+#5 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#6 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-12 19:03:48 --> Call to a member function get_cellmap() on null
+#0 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(52): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\Inline.php(78): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Inline->reflow(Object(Dompdf\FrameDecorator\Block))
+#5 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#7 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#8 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(NULL)
+#9 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\Page.php(141): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#10 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\Dompdf.php(838): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\laragon\www\ihelpfrontend\app\Controllers\Cetak.php(47): Dompdf\Dompdf->render()
+#13 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Cetak->permissionrequest('93')
+#14 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#15 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2021-10-12 19:04:45 --> Call to a member function get_cellmap() on null
+#0 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(52): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\Inline.php(78): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Inline->reflow(Object(Dompdf\FrameDecorator\Block))
+#5 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#7 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\Block.php(845): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#8 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Block->reflow(NULL)
+#9 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameReflower\Page.php(141): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#10 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(895): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\laragon\www\ihelpfrontend\vendor\dompdf\dompdf\src\Dompdf.php(838): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\laragon\www\ihelpfrontend\app\Controllers\Cetak.php(47): Dompdf\Dompdf->render()
+#13 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Cetak->permissionrequest('93')
+#14 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#15 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2021-10-12 19:07:44 --> Allowed memory size of 2147483648 bytes exhausted (tried to allocate 1071648768 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 19:08:42 --> Allowed memory size of 2147483648 bytes exhausted (tried to allocate 1069551616 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 19:57:34 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('cetak/permissio...')
+#1 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('cetak/permissio...')
+#2 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

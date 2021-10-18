@@ -1,0 +1,1074 @@
+ERROR - 2021-09-13 05:14:10 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:14:10 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(83): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:14:10 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:14:10 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(83): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:14:10 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:14:10 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(83): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:14:35 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:14:35 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(83): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:14:35 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:14:35 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(83): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:14:36 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:14:36 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(83): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 05:16:29 --> Undefined variable: provinsi
+#0 C:\laragon\www\penyaluranapp\app\Views\monitoring_kpm.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('monitoring_kpm', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(124): view('monitoring_kpm', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('6')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-13 05:16:30 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:16:30 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(83): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:16:30 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:16:30 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(83): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:16:31 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:16:31 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(83): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 05:20:25 --> Class 'App\Models\Monitoring_kyc_kpm_model' not found
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Monitoring_data->__construct()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-13 05:20:58 --> Class 'App\Models\Monitoring_kyc_kpm_model' not found
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Monitoring_data->__construct()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-13 05:21:34 --> Class 'App\Models\Monitoring_kyc_kpm_model' not found
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\Monitoring_data->__construct()
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-13 05:22:04 --> Undefined property: App\Controllers\Monitoring_data::$Kyc_kpmmmodel
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 46, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('6')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-13 05:22:23 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:22:23 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:22:24 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:22:24 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:22:24 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:22:24 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:22:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'KOTAKABUPATEN'.
+CRITICAL - 2021-09-13 05:22:45 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'KOTAKABUPATEN'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('Select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_model.php(58): CodeIgniter\Database\BaseConnection->query('Select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(139): App\Models\Monitoring_model->getkabupaten('ACEH')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->getkabupaten()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:22:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'KOTAKABUPATEN'.
+CRITICAL - 2021-09-13 05:22:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'KOTAKABUPATEN'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('Select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_model.php(58): CodeIgniter\Database\BaseConnection->query('Select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(139): App\Models\Monitoring_model->getkabupaten('JAMBI')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->getkabupaten()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:23:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'KOTAKABUPATEN'.
+CRITICAL - 2021-09-13 05:23:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'KOTAKABUPATEN'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('Select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_model.php(58): CodeIgniter\Database\BaseConnection->query('Select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(139): App\Models\Monitoring_model->getkabupaten('ACEH')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->getkabupaten()
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:28:35 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:28:35 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:28:35 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:28:35 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:28:36 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:28:36 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:29:51 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:29:51 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 05:29:51 --> Undefined property: App\Controllers\Monitoring_kyc_kpm::$monitoringmodel
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_kyc_kpm.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 35, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_kyc_kpm->monitordata('5')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_kyc_kpm))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-13 05:29:51 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:29:51 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:29:52 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:29:52 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:31:45 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:31:45 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 05:31:45 --> Undefined property: App\Controllers\Monitoring_kyc_kpm::$monitoringmodel
+#0 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_kyc_kpm.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_kyc_kpm->monitordata('5')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_kyc_kpm))
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-13 05:31:46 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:31:46 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:31:46 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:31:46 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:32:07 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:32:07 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:32:08 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:32:08 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 05:32:08 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 05:32:08 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:11:49 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:11:49 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:11:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'idsemesta'.
+CRITICAL - 2021-09-13 06:11:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'idsemesta'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select count(*)...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select count(*)...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_kyc_kpm_model.php(169): CodeIgniter\Database\BaseConnection->query('select count(*)...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_kyc_kpm.php(49): App\Models\Monitoring_kyc_kpm_model->getmonitordata(0, NULL, '0', '10', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_kyc_kpm->monitordata('5')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_kyc_kpm))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:11:50 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:11:50 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:11:50 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:11:50 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(90): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:13:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'PROVINSI'.
+CRITICAL - 2021-09-13 06:13:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'PROVINSI'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_kyc_kpm_model.php(48): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(45): App\Models\Monitoring_kyc_kpm_model->getprovinsi()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('6')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:15:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'PROVINSI'.
+CRITICAL - 2021-09-13 06:15:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'PROVINSI'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_kyc_kpm_model.php(48): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(45): App\Models\Monitoring_kyc_kpm_model->getprovinsi()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('6')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:16:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'bank'.
+CRITICAL - 2021-09-13 06:16:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'bank'.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_kyc_kpm_model.php(90): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(46): App\Models\Monitoring_kyc_kpm_model->getprogram()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('6')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 06:17:06 --> You must set the database table to be used with your query.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(46): CodeIgniter\Model->__call('getprogram', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('6')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-13 06:17:58 --> Undefined variable: program
+#0 C:\laragon\www\penyaluranapp\app\Views\monitoring_kpm.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 70, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('monitoring_kpm', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(130): view('monitoring_kpm', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('6')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-13 06:17:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:17:59 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:18:00 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:18:00 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:18:00 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:18:00 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:18:44 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:18:44 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:18:45 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:18:45 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:18:45 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:18:45 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:33:50 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:33:50 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:33:51 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:33:51 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:33:51 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:33:51 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 06:33:54 --> You must set the database table to be used with your query.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_kyc_kpm.php(107): CodeIgniter\Model->__call('getlastdata', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_kyc_kpm->download('6')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_kyc_kpm))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-09-13 06:35:09 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:35:09 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:35:09 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:35:09 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 06:35:10 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 06:35:10 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 06:35:13 --> You must set the database table to be used with your query.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_kyc_kpm.php(107): CodeIgniter\Model->__call('getlastdata', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_kyc_kpm->download('6')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_kyc_kpm))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-13 18:08:45 --> You must set the database table to be used with your query.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_kyc_kpm.php(107): CodeIgniter\Model->__call('getlastdata', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_kyc_kpm->download('6')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_kyc_kpm))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-09-13 18:09:04 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:09:04 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:09:04 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:09:04 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:09:04 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:09:04 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 18:09:07 --> You must set the database table to be used with your query.
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Model.php(798): CodeIgniter\Model->builder()
+#2 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_kyc_kpm.php(107): CodeIgniter\Model->__call('getlastdata', Array)
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_kyc_kpm->download('6')
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_kyc_kpm))
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-09-13 18:13:00 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:13:00 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select * from [...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from [...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_kyc_kpm_model.php(142): CodeIgniter\Database\BaseConnection->query('select * from [...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_kyc_kpm.php(107): App\Models\Monitoring_kyc_kpm_model->getlastdata()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_kyc_kpm->download('6')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_kyc_kpm))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:33:18 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:33:18 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:33:19 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:33:19 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:33:19 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:33:19 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:33:30 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:33:30 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:33:31 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:33:31 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:33:31 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:33:31 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:33:37 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:33:37 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:33:37 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:33:37 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:33:37 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:33:37 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-13 18:35:03 --> Undefined variable: provinsi
+#0 C:\laragon\www\penyaluranapp\app\Views\monitoring_salur.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('monitoring_salu...', Array, true)
+#4 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(133): view('monitoring_salu...', Array)
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('7')
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#7 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-13 18:35:04 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:35:04 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:35:04 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:35:04 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:35:05 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:35:05 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(89): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:35:36 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:35:36 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:35:37 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:35:37 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:35:37 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:35:37 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:37:00 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:37:00 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:37:01 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:37:01 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:37:01 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:37:01 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:37:29 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:37:29 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:37:29 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:37:29 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:37:30 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:37:30 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:37:44 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:37:44 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:37:44 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:37:44 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:37:45 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:37:45 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:47:53 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:47:53 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:47:53 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:47:53 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:47:54 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:47:54 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:52:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:52:59 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:52:59 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:52:59 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:53:00 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:53:00 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:53:38 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:53:38 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:53:38 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:53:38 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:53:38 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:53:38 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 18:53:50 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 18:53:50 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select * from [...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select * from [...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_salur_model.php(148): CodeIgniter\Database\BaseConnection->query('select * from [...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_salur.php(113): App\Models\Monitoring_salur_model->getlastdata()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_salur->download('6')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_salur))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 19:08:28 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 19:08:28 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user1-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 19:08:28 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 19:08:28 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user3-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-13 19:08:29 --> Memory limit of 10240 KB exceeded for buffered query
+CRITICAL - 2021-09-13 19:08:29 --> Memory limit of 10240 KB exceeded for buffered query
+#0 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\SQLSRV\Connection->execute('select distinct...')
+#1 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('select distinct...')
+#2 C:\laragon\www\penyaluranapp\app\Models\Monitoring_sas_model.php(21): CodeIgniter\Database\BaseConnection->query('select distinct...')
+#3 C:\laragon\www\penyaluranapp\app\Controllers\Monitoring_data.php(93): App\Models\Monitoring_sas_model->getKODE_WILAYAH()
+#4 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Monitoring_data->monitoring('assets', 'dist', 'img', 'user8-128x128.j...')
+#5 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Monitoring_data))
+#6 C:\laragon\www\penyaluranapp\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\penyaluranapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
