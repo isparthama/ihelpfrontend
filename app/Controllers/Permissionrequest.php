@@ -184,12 +184,24 @@ class Permissionrequest extends BaseController {
         }
     }
 
-    public function sendEmail(){
+    public function sendEmail($id){
 
+        $result=$this->model->get($id)->getRow();
+        
+
+        $data['permissionrequest']=$result;
+        
+        
         $attachment='';
         $to='isparthama@gmail.com';
         $title='test send email';
         $message='<html>content email</html>';
+
+        $result->statusid=1;
+        if ($result->statusid==1){
+            $message=view('email_template_permission_requested',$data);
+        }
+        
 
         // // : ihelp@cowellcommercial.com pswd: Abcd_1234 stmp: mail.cowellcommercial.com port:587
         $config['protocol']    = 'smtp';
