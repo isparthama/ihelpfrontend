@@ -321,9 +321,9 @@ function view(id){
 
             // loadImage('uploads/'+data.media_1, 800, 800, '#lbimage_1');
 
-            if (data.media_1!='') $("#img3").prop('src','http://localhost:8080/ihelpfrontend/public/UploadController?id='+id+'&mediaid=3');
-            if (data.media_2!='') $("#img2").prop('src','http://localhost:8080/ihelpfrontend/public/UploadController?id='+id+'&mediaid=2');
-            if (data.media_3!='') $("#img1").prop('src','http://localhost:8080/ihelpfrontend/public/UploadController?id='+id+'&mediaid=1');
+            if (data.media_1!='') $("#img3").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=3');
+            if (data.media_2!='') $("#img2").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=2');
+            if (data.media_3!='') $("#img1").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=1');
             
             // $("#image3, #image2, #image1").load(function(){
             //     //This is ourcallback. Once our images have loaded, we display an alert
