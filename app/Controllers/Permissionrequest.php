@@ -193,14 +193,14 @@ class Permissionrequest extends BaseController {
 
         // // : ihelp@cowellcommercial.com pswd: Abcd_1234 stmp: mail.cowellcommercial.com port:587
         $config['protocol']    = 'smtp';
-        $config['SMTPHost']    = 'smtp.cowellcommercial.com';
+        $config['SMTPHost']    = 'mail.cowellcommercial.com';
         $config['SMTPPort']    = '587';
         $config['SMTPTimeout'] = '7';
         $config['SMTPUser']    = 'ihelp@cowellcommercial.com';
         $config['SMTPPass']    = 'Abcd_1234';
         $config['charset']    = 'utf-8';
         $config['newline']    = "\r\n";
-        $config['SMTPCrypto']    = "tls";
+        $config['SMTPCrypto']    = "";
         $config['mailType'] = 'html'; // or html
         $mail_config['send_multipart'] = FALSE;
         $config['validation'] = TRUE; // bool whether to validate email or not    
