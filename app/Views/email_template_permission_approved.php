@@ -16,11 +16,6 @@
             margin: 4px 2px;
             cursor: pointer;
         }
-        a:link {
-        color: white;
-        background-color: transparent;
-        text-decoration: none;
-        }
     </style>
 </head>
 <center><h2>New Permission Request !</h2></center>
@@ -57,7 +52,7 @@
     </tr>
     <tr height="20"><tr>
     <tr>
-        <td colspan=3>You had been assigned to validate this permission, by set this permission status to be approve or disapprove!</td>
+        <td colspan=3>Permission request had been Approved on <?php echo $permissionrequest->signature_date;?> <?php echo $permissionrequest->signature_time;?></td>
     </tr>
     <tr height="20"><tr>
     <tr>

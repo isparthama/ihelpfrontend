@@ -178,6 +178,7 @@ class Permissionrequest extends BaseController {
         );
 
         if ($result){
+            $this->sendEmail($result->id);
             return redirect()->to(base_url('Permissionrequest'));
         } else {
             echo 'gagal';
@@ -194,14 +195,17 @@ class Permissionrequest extends BaseController {
         
         $attachment='';
         $to='isparthama@gmail.com';
-        $title='test send email';
+        $title='New Permission Requested!';
         $message='<html>content email</html>';
 
-        $result->statusid=1;
+        $result->statusid=4;
         if ($result->statusid==1){
             $message=view('email_template_permission_requested',$data);
         }
-        
+        if ($result->statusid==4){
+            $title='Permission Approved!';
+            $message=view('email_template_permission_approved',$data);
+        }
 
         // // : ihelp@cowellcommercial.com pswd: Abcd_1234 stmp: mail.cowellcommercial.com port:587
         $config['protocol']    = 'smtp';

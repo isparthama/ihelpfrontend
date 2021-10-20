@@ -26,6 +26,13 @@ class M_suratjalanModel extends Model
         return $result;
     }
 
+    public function printed_filename($id,$printed_filename){
+        $sql="exec [dbo].[m_suratjalan_setprinted_filename] $id,'$printed_filename'";
+
+        $result=$this->db->query($sql);
+
+        return $result;
+    }
     public function store(
         $tenantid,
         $idtipesuratjalan,
