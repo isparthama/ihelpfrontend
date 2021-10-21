@@ -107,7 +107,7 @@
         </div>
         <div class="form-group col-md-6">
             <label for="formGrouphp_pic">HP PIC</label>
-            <div id='elhp_pic'><input class="form-control" type='text' id='hp_pic' name='hp_pic'></div><div id='lbhp_pic'></div>
+            <div id='elhp_pic'><input class="form-control" type='number' id='hp_pic' name='hp_pic'></div><div id='lbhp_pic'></div>
         </div>
     </div>
     <div class="form-group">
@@ -123,7 +123,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="formGrouptenant_pic">HP Kontraktor</label>
-                <div id='elKontak'><input class="form-control" type='text' id='Kontak' name='Kontak'></div><div id='lbKontak'></div>
+                <div id='elKontak'><input class="form-control" type='number' id='Kontak' name='Kontak'></div><div id='lbKontak'></div>
             </div>
         </div>
         <div class="form-row">
@@ -486,7 +486,7 @@ function view(id){
 
             $('#btnsimpan').hide();
             
-            if (data.statusid==1){
+            if (data.statusid==1&&data.isapprover==1){
                 $('#btnapprove').show();
                 $('#btnreject').show();
             } else {

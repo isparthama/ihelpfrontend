@@ -30,6 +30,12 @@ class M_surat_jalan_progress extends BaseController {
 
         $result=$this->model->create($idsuratjalan,$statusid)->getRow();
         
+        $result_suratjalan=$this->m_suratjalanModel->get($id)->getRow();
+        if ($result_suratjalan->status==2) {
+            if ($this->printtofile($id)){
+                $this->sendEmail($id);
+            }
+        }
         return json_encode($result);
     }
 
@@ -68,6 +74,8 @@ class M_surat_jalan_progress extends BaseController {
         file_put_contents('generated/'.$printed_filename, $output);
 
         $this->m_suratjalanModel->printed_filename($id,$printed_filename);
+
+        return true;
         
     }
 
@@ -119,7 +127,6 @@ class M_surat_jalan_progress extends BaseController {
 		$email->setMessage($message);
 
         $result=$email->send();
-        echo dd($email);
 		if(! $result){
             echo 'email sent successfully';
 			return false;

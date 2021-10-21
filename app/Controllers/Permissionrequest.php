@@ -112,14 +112,16 @@ class Permissionrequest extends BaseController {
 
         $json_items_arr=[];
         
-        for($i=0;$i<sizeof($itemcode);$i++){
-            $data=[
-                "itemcode"=>$itemcode[$i],
-                "itemname"=>$itemname[$i],
-                "quantity"=>$quantity[$i],
-                "note"=>$note[$i],
-            ];
-            $json_items_arr[]=$data;
+        if (is_array($itemcode)){
+            for($i=0;$i<sizeof($itemcode);$i++){
+                $data=[
+                    "itemcode"=>$itemcode[$i],
+                    "itemname"=>$itemname[$i],
+                    "quantity"=>$quantity[$i],
+                    "note"=>$note[$i],
+                ];
+                $json_items_arr[]=$data;
+            }
         }
 
         $idfacility=$this->request->getPost('idfacility');
@@ -129,30 +131,32 @@ class Permissionrequest extends BaseController {
         $to_time=$this->request->getPost('to_time');
         
         $json_facility_arr=[];
-        for($i=0;$i<sizeof($idfacility);$i++){
-            $data=[
-                "idfacility"=>$idfacility[$i],
-                "from_date"=>$from_date[$i],
-                "from_time"=>$from_time[$i],
-                "to_date"=>$to_date[$i],
-                "to_time"=>$to_time[$i],
-            ];
-            $json_facility_arr[]=$data;
+        if (is_array($idfacility)){
+            for($i=0;$i<sizeof($idfacility);$i++){
+                $data=[
+                    "idfacility"=>$idfacility[$i],
+                    "from_date"=>$from_date[$i],
+                    "from_time"=>$from_time[$i],
+                    "to_date"=>$to_date[$i],
+                    "to_time"=>$to_time[$i],
+                ];
+                $json_facility_arr[]=$data;
+            }
         }
-        
         $from_time_multitime=$this->request->getPost('from_time_multitime');
         $to_time_multitime=$this->request->getPost('to_time_multitime');
         $location_multitime=$this->request->getPost('location_multitime');
         $json_multitime_arr=[];
         
-
-        for($i=0;$i<sizeof($from_time_multitime);$i++){
-            $data=[
-                "from_time"=>$from_time_multitime[$i],
-                "to_time"=>$to_time_multitime[$i],
-                "location"=>$location_multitime[$i],
-            ];
-            $json_multitime_arr[]=$data;
+        if (is_array($from_time_multitime)){
+            for($i=0;$i<sizeof($from_time_multitime);$i++){
+                $data=[
+                    "from_time"=>$from_time_multitime[$i],
+                    "to_time"=>$to_time_multitime[$i],
+                    "location"=>$location_multitime[$i],
+                ];
+                $json_multitime_arr[]=$data;
+            }
         }
 
         $json_kontraktor=json_encode($kontraktor_arr);
@@ -198,7 +202,6 @@ class Permissionrequest extends BaseController {
         $title='New Permission Requested!';
         $message='<html>content email</html>';
 
-        $result->statusid=4;
         if ($result->statusid==1){
             $message=view('email_template_permission_requested',$data);
         }
@@ -234,8 +237,7 @@ class Permissionrequest extends BaseController {
 		$email->setMessage($message);
 
         $result=$email->send();
-        echo dd($email);
-		if(! $result){
+        if(! $result){
             echo 'email sent successfully';
 			return false;
 		}else{

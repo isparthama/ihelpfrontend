@@ -19,8 +19,10 @@ class M_suratjalanModel extends Model
     }
 
     public function get($id){
-        $sql="exec [dbo].[m_suratjalan_get] $id";
+        $user=session()->get('userinfo');
 
+        $sql="exec [dbo].[m_suratjalan_get] '".$user['token']."',$id";
+        
         $result=$this->db->query($sql);
 
         return $result;
