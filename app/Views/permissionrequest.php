@@ -59,7 +59,7 @@
             </div>
             <div id="lbunit"></div>
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-6" style="display:none" id="divcetak">
             <a id='cetak' href="<?php echo base_url('cetak/permissionrequest');?>" target="_blank"><i class="fas fa-print"></i>&nbsp Print</a>
         </div>
     </div>
@@ -229,6 +229,17 @@
         <?php }?>
     </table>
     </div>
+
+    <div id='elalasan' style="display:none">
+        <div><p><h2>Reject Reason</h2></div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <div id='txalasan'><textarea id='alasan' name='alasan' class="form-control"></textarea></div><div id='lbalasan'></div>
+            </div>
+        </div>
+    </div>
+
+<p>
     <input type='hidden' id='id' name='id' value=''>
 
     <div class="form-row">
@@ -486,12 +497,29 @@ function view(id){
 
             $('#btnsimpan').hide();
             
-            if (data.statusid==1&&data.isapprover==1){
+            if ((data.statusid==1||data.statusid==3)&&data.isapprover==1){
                 $('#btnapprove').show();
                 $('#btnreject').show();
             } else {
                 $('#btnapprove').hide();
                 $('#btnreject').hide();
+            }
+
+            if (data.statusid==2){
+                $('#divcetak').show();
+            } else {
+                $('#divcetak').hide();
+            }
+
+
+            if (data.alasan_reject!=''){
+                $('#elalasan').show();
+                $('#lbalasan').show();
+                $('#txalasan').hide();
+                $('#lbalasan').html(data.alasan_reject);
+            } else {
+                $('#elalasan').hide();
+                $('#lbalasan').hide();
             }
         }
     );
@@ -506,7 +534,17 @@ function validate(){
 }
 function approve(statusid){
     var id = $("#id").val();
+    var alasan = $("#alasan").val();
+    alert(alasan);
     
+    if (statusid==4&alasan==''){
+        alert('Mohon Input Alasan Reject');
+        $('#elalasan').show();
+        $('#txalasan').show();
+        return false;
+    } else {
+        $('#elalasan').hide();
+    }
 
     alert(id);
     $.ajax({
@@ -514,7 +552,8 @@ function approve(statusid){
         type: 'POST',
         data: {
             id: id,
-            status: statusid
+            status: statusid,
+            comment: alasan
             },
         success: function (result) {
             var data=jQuery.parseJSON(result);
@@ -568,6 +607,8 @@ function applyrole(){
                 $('#multitime').hide();
             }
             
+            
+
         }
     );
     

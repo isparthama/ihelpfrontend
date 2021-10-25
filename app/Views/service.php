@@ -25,18 +25,23 @@
         <tbody>
             <?php foreach($transaksi as $row){?>
             <tr>
-                <td><a href="javascript:view(<?php echo $row->id?>)">
+                <td><?php if($row->statusid==1){?><button type="button" class="btn btn-danger" onclick="javascript:view(<?php echo $row->id?>)">
+                    <span id="spinner<?php echo $row->id?>" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none"></span>
+                    <?php echo $row->id?>
+                </button><?php } else {?>
+                    <a href="javascript:view(<?php echo $row->id?>)">
                     <span id="spinner<?php echo $row->id?>" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none"></span>
                     <?php echo $row->id?>
                     </a>
+                    <?php }?>
                 </td>
                 <td><div id="statusrow<?php echo $row->id?>"><?php echo $row->status?></div></td>
                 <td><?php echo $row->building?></td>
                 <td><?php echo $row->tenant_name?></td>
                 <td><?php echo $row->title?></td>
                 <td><?php echo $row->keterangan?></td>
-                <td><?php echo $row->departemen?></td>
-                <td><?php echo $row->category?></td>
+                <td><div id="departemenrow<?php echo $row->id?>"><?php echo $row->departemen?></div></td>
+                <td><div id="categoryrow<?php echo $row->id?>"><?php echo $row->category?></div></td>
                 <td><?php echo $row->created_at?></td>
                 <td><input type="button" id='action<?php echo $row->id;?>' value='View' onclick='javascript:view(<?php echo $row->id;?>)'></input>
                 </td>
@@ -175,7 +180,7 @@
         <div class="form-row">
             <div class="form-group col-md-12">
                 <div id='approvedby' style="display:none">
-                    <p><h2>Approved By</h2>
+                    <p><h2>Progress</h2>
                     <table class="table table-bordered" id="approvedbytbl">
                         <thead>
                             <tr>
@@ -199,6 +204,34 @@
                 </div>
             </div>
         </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <div id='ctcomment' style="display:none">
+                    <p><h2>History Comment</h2>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <table class="table table-bordered" id="commentlisttbl">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">Comments</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-9">
+                            <textarea class="form-control" rows="2" id="comment"></textarea>
+                        </div>
+                        <div class="form-group col-md-1">
+                            <button type="button" class="btn btn-primary" onclick="javascript:sendcomments()">Send Comment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="form-row">
             <div id="btngroup">
                 <input type="Submit" value="Simpan" id="btnsimpan">
@@ -211,6 +244,24 @@
         </div>
     </div>
 <script>
+function sendcomments(){
+    var comment=$('#comment').val();
+    var id=$('#id').val();
+
+    $.ajax({
+            url: '<?php echo base_url('m_comment');?>',
+            type: 'POST',
+            data: {
+                "id":id,
+                "comment":comment
+                },
+            success: function (result) {
+                var obj=jQuery.parseJSON(result);
+                
+                $('#commentlisttbl tr:last').after('<tr><td>'+obj.created_at+'</td><td>'+obj.nama_lengkap+'</td><td>'+obj.Keterangan+'</td></tr>');
+            }
+    });
+}
 function showelements(){
     $('#elunit').show();
     $('#lbunit').hide();
@@ -317,24 +368,15 @@ function view(id){
             $('#lbtipecategory').html(data.kategori_name);
             $('#lbdepartemen').html(data.departemen_name);
             $('#lbalasan').html(data.reason_name);
-            
 
-            // loadImage('uploads/'+data.media_1, 800, 800, '#lbimage_1');
+            $("#tipecategory").val(data.category);
+            $("#departemen").val(data.departemenid);
+            
 
             if (data.media_1!='') $("#img3").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=3');
             if (data.media_2!='') $("#img2").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=2');
             if (data.media_3!='') $("#img1").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=1');
             
-            // $("#image3, #image2, #image1").load(function(){
-            //     //This is ourcallback. Once our images have loaded, we display an alert
-            //     // alert("loaded!");
-            // });
-            // $("#image1").prepend($('<img>',{id:'theImg',src:'http://localhost:8080/ihelpfrontend/public/UploadController?id=55&mediaid=1'}));
-            // $("#image2").attr("src", data.media_2);
-                
-            // loadImage('uploads/'+data.media_2, 800, 800, '#lbimage_2');
-            // loadImage('uploads/'+data.media_3, 800, 800, '#lbimage_3');
-
             $('#pilihkategory').show();
 
             if (data.status>=1){
@@ -343,29 +385,40 @@ function view(id){
                 $('#btnapprove').hide();
             }
 
-            $('#approvedby').show();
-            $('#pilihalasan').show();
+            $('#approvedby').show();   
+            $('#ctcomment').show();           
+            $('#pilihalasan').hide();
 
             var content='';
-            if (data.json_otheropsi!=null){
-                var otheropsi=JSON.parse(data.json_otheropsi);
-                $.each(otheropsi, function(index,obj){
-                    content=content+'<input type="button" value="'+obj.btnlabel+'" onclick="approvebyid('+obj.servicestatusid+',\''+obj.status+'\')" id="btn'+obj.btnlabel+'">';
-                });
+            if (data.hasaccess){
                 
-            } else {
-                if (data.nextaction!=null){
-                    content='<input type="button" value="'+data.nextaction+'" onclick="approve()" id="btnapprove">';
-                } 
+                if (data.json_otheropsi!=null){
+                    var otheropsi=JSON.parse(data.json_otheropsi);
+                    $.each(otheropsi, function(index,obj){
+                        content=content+'<input type="button" value="'+obj.btnlabel+'" onclick="approvebyid('+obj.servicestatusid+',\''+obj.status+'\')" id="btn'+obj.btnlabel+'">';
+                    });
+                    
+                } else {
+                    if (data.nextaction!=null){
+                        content='<input type="button" value="'+data.nextaction+'" onclick="approve()" id="btnapprove">';
+                    } 
+                }
             }
+
             content=content+'<input type="button" value="Back" onclick="listdata()">';
             $('#btngroup').html(content);
-
+            
             $('#approvedby').show();
             var progress=data.progress;
             $('#approvedbytbl').find("tr:gt(0)").remove();
             $.each(progress, function(index,obj){
                 $('#approvedbytbl tr:last').after('<tr><td>'+obj.keterangan+'</td><td>'+obj.created_at+'</td><td>'+obj.nama_lengkap+'</td><td>'+obj.position+'</td><td>'+obj.catatan+'</td></tr>');
+            });
+
+            var comment=data.comments;
+            $('#commentlisttbl').find("tr:gt(0)").remove();
+            $.each(comment, function(index,obj){
+                $('#commentlisttbl tr:last').after('<tr><td width="20%">'+obj.created_at+'</td><td>'+obj.nama_lengkap+'</td><td>'+obj.Keterangan+'</td></tr>');
             });
 
 
@@ -445,6 +498,14 @@ function approve(){
                 } else {
                     alert("Approved "+data.id);
                     $('#statusrow'+id).html(action);
+
+                    alert(status);
+                    if (status==2){
+                        var selected_category=$('#tipecategory :selected').text();
+                        alert(selected_category);
+                        $('#categoryrow'+id).html(selected_category);
+                        $('#departemenrow'+id).html($('#departemen :selected').text());
+                    }
                     listdata();
                 }
             }
@@ -461,6 +522,7 @@ function tambahdata(){
     $('#btngroup').html(content);
    
    $('#approvedby').hide();
+   $('#ctcomment').hide();
 
 }
 function listdata(){
@@ -471,6 +533,7 @@ function listdata(){
 
     $('#pilihalasan').hide();
    $('#approvedby').hide();
+   $('#ctcomment').hide();
 }
 $(document).ready( function () {
     $('#table_id').DataTable({

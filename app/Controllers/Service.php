@@ -10,6 +10,8 @@ use App\Models\M_categoryModel;
 use App\Models\M_departemenModel;
 use App\Models\M_service_status_reasonModel;
 use App\Models\T_transaksi_progressModel;
+use App\Models\M_role_service_statusModel;
+use App\Models\M_commentModel;
 
 class Service extends BaseController {
     public $SERVER;
@@ -21,6 +23,8 @@ class Service extends BaseController {
     var $m_departemenModel=null;
     var $m_service_status_reasonmodel=null;
     var $t_transaksi_progressModel=null;
+    var $m_role_service_statusModel=null;
+    var $m_commentModel=null;
 
     public function __construct()
     {
@@ -32,6 +36,8 @@ class Service extends BaseController {
         $this->m_departemenModel=new M_departemenModel();
         $this->m_service_status_reasonmodel=new M_service_status_reasonModel();
         $this->t_transaksi_progressModel=new T_transaksi_progressModel();
+        $this->m_role_service_statusModel=new M_role_service_statusModel();
+        $this->m_commentModel=new M_commentModel();
     }
 
     public function index(){
@@ -138,6 +144,17 @@ class Service extends BaseController {
         $result=$this->model->get($this->request->getGet('id'))->getRow();
         
         $result->progress=$this->t_transaksi_progressModel->get($result->id)->getResult();
+
+        $result->comments=$this->m_commentModel->getall($result->id)->getResult();
+
+        $result_m_role_service_status=$this->m_role_service_statusModel->getall($result->id)->getRow();
+        if ($result_m_role_service_status->jmlakses){
+            $result->hasaccess=true;
+        } else {
+            $result->hasaccess=false;
+        }
+
+        
         echo json_encode($result);
     }
 }

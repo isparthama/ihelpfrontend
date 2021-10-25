@@ -5,16 +5,22 @@ namespace App\Controllers;
 use App\Models\M_surat_jalan_progressModel;
 use App\Models\M_suratjalanModel;
 use App\Models\M_suratjalanfacilityModel;
+use App\Models\M_facilityModel;
 
 class M_surat_jalan_progress extends BaseController {
     public $SERVER;
     var $model=null;
+    var $m_suratjalanModel=null;
+    var $m_suratjalanfacilitymodel=null;
+    var $m_facilityModel=null;
+
     
     public function __construct()
     {
         $this->m_suratjalanModel=new M_suratjalanModel();
         $this->model=new M_surat_jalan_progressModel();
         $this->m_suratjalanfacilitymodel=new M_suratjalanfacilityModel();
+        $this->m_facilityModel=new M_facilityModel();
     }
 
     public function index(){
@@ -27,13 +33,14 @@ class M_surat_jalan_progress extends BaseController {
     public function create(){
         $idsuratjalan=$this->request->getVar('id');
         $statusid=$this->request->getVar('status');
+        $comment=$this->request->getVar('comment');
 
-        $result=$this->model->create($idsuratjalan,$statusid)->getRow();
+        $result=$this->model->create($idsuratjalan,$statusid,$comment)->getRow();
         
-        $result_suratjalan=$this->m_suratjalanModel->get($id)->getRow();
-        if ($result_suratjalan->status==2) {
-            if ($this->printtofile($id)){
-                $this->sendEmail($id);
+        $result_suratjalan=$this->m_suratjalanModel->get($idsuratjalan)->getRow();
+        if ($result_suratjalan->statusid==2) {
+            if ($this->printtofile($idsuratjalan)){
+                $this->sendEmail($idsuratjalan);
             }
         }
         return json_encode($result);
@@ -52,7 +59,7 @@ class M_surat_jalan_progress extends BaseController {
 
         $json_facilities=json_decode($result->json_facility);
         foreach ($json_facilities as $row){
-            $facility=$this->facilitymodel->get($row->idfacility)->getRow();
+            $facility=$this->m_facilityModel->get($row->idfacility)->getRow();
             $row->ketfacility=$facility->Keterangan;
         }
         $result->json_facility=json_encode($json_facilities);
@@ -128,8 +135,7 @@ class M_surat_jalan_progress extends BaseController {
 
         $result=$email->send();
 		if(! $result){
-            echo 'email sent successfully';
-			return false;
+            return false;
 		}else{
             $email->printDebugger();
 			return true;

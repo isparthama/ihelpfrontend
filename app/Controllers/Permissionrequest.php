@@ -65,6 +65,9 @@ class Permissionrequest extends BaseController {
     public function getdata(){
         $result=$this->model->get($this->request->getGet('id'))->getRow();
         $result->json_facility=json_encode($this->m_suratjalanfacilitymodel->getbysuratjalanid($result->id)->getResult());
+        echo $result->json_facility;
+        exit;
+        
         $result->approvedby=json_encode($this->m_surat_jalan_progressmodel->get($result->id)->getResult());
 
         echo json_encode($result);

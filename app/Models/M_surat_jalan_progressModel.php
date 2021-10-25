@@ -6,14 +6,14 @@ use CodeIgniter\Model;
 
 class M_surat_jalan_progressModel extends Model
 {
-    public function create($idsuratjalan,$statusid){
+    public function create($idsuratjalan,$statusid,$comment){
         $user=session()->get('userinfo');
 
         $sql="exec [m_surat_jalan_progress_create]
         $idsuratjalan,
         $statusid,
         ".$user['id'].",
-        '',
+        '$comment',
         '".$user['token']."'";
 
         return $this->db->query($sql);
