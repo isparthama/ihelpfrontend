@@ -64,10 +64,16 @@ class Permissionrequest extends BaseController {
 
     public function getdata(){
         $result=$this->model->get($this->request->getGet('id'))->getRow();
-        $result->json_facility=json_encode($this->m_suratjalanfacilitymodel->getbysuratjalanid($result->id)->getResult());
-        echo $result->json_facility;
-        exit;
+        $facility=$this->m_suratjalanfacilitymodel->getbysuratjalanid($result->id)->getResult();
         
+
+        foreach ($facility as $row){
+            $row->from_time=str_replace(':00.0000000','',$row->from_time);
+            $row->to_time=str_replace(':00.0000000','',$row->to_time);
+        }
+
+        $result->json_facility=json_encode($facility);
+
         $result->approvedby=json_encode($this->m_surat_jalan_progressmodel->get($result->id)->getResult());
 
         echo json_encode($result);

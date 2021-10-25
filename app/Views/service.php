@@ -442,10 +442,8 @@ function approve(){
     var alasan=$("#alasan").val();
     var action=$("#statusket").val();
     
-    alert(status);
-    alert(alasan);
-
-    if (status==2&&category==''){
+    
+    if (status==2&&category==null){
         $('#pilihkategory').show();
 
         alert('pilih kategori');
@@ -477,6 +475,11 @@ function approve(){
 
         alert('pilih alasan');
 
+        $('#btnCancel').attr("disabled", true);
+        $('#btnDone').attr("disabled", true);
+        $('#btnPending').val('Update');
+
+
         $('#elalasan').show();
         $('#lbalasan').hide();
     } else {
@@ -496,13 +499,12 @@ function approve(){
                 if (data.status=='Gagal'){
                     alert(data.keterangan);
                 } else {
-                    alert("Approved "+data.id);
+                    alert("Tenant Complain Approved "+data.id);
                     $('#statusrow'+id).html(action);
 
-                    alert(status);
                     if (status==2){
                         var selected_category=$('#tipecategory :selected').text();
-                        alert(selected_category);
+                        
                         $('#categoryrow'+id).html(selected_category);
                         $('#departemenrow'+id).html($('#departemen :selected').text());
                     }
