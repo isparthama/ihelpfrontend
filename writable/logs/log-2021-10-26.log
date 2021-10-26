@@ -1,0 +1,343 @@
+CRITICAL - 2021-10-26 02:12:39 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:14:11 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:14:48 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:15:17 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:15:45 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:15:57 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:16:08 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:16:43 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:18:04 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:18:10 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:20:17 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:21:01 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:21:38 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:22:07 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:22:53 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:23:07 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:24:05 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:25:14 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:26:06 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:26:56 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:27:17 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:27:37 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:28:02 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:28:09 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:28:28 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:28:37 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:28:48 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:29:01 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:29:22 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:39:49 --> file_put_contents(generated/SURATJALAN96.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\M_surat_jalan_progress.php(81): file_put_contents('generated/SURAT...', '%PDF-1.7\n1 0 ob...')
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\M_surat_jalan_progress.php(42): App\Controllers\M_surat_jalan_progress->printtofile('96')
+#3 C:\xampp\htdocs\ihelpfrontend\app\Controllers\M_surat_jalan_progress.php(28): App\Controllers\M_surat_jalan_progress->create()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\M_surat_jalan_progress->index()
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\M_surat_jalan_progress))
+#6 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-26 02:39:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\API\ResponseTrait.php(423): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-26 02:52:11 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:53:41 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:55:24 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 02:55:44 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 03:05:47 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 03:06:02 --> file_get_contents(uploads/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\UploadController.php(39): file_get_contents('uploads/')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\UploadController->index()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadController))
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-26 03:12:21 --> file_put_contents(generated/SURATJALAN98.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\M_surat_jalan_progress.php(81): file_put_contents('generated/SURAT...', '%PDF-1.7\n1 0 ob...')
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\M_surat_jalan_progress.php(42): App\Controllers\M_surat_jalan_progress->printtofile('98')
+#3 C:\xampp\htdocs\ihelpfrontend\app\Controllers\M_surat_jalan_progress.php(28): App\Controllers\M_surat_jalan_progress->create()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\M_surat_jalan_progress->index()
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\M_surat_jalan_progress))
+#6 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-26 03:12:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\API\ResponseTrait.php(423): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-26 03:12:56 --> file_put_contents(generated/SURATJALAN98.pdf): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\M_surat_jalan_progress.php(81): file_put_contents('generated/SURAT...', '%PDF-1.7\n1 0 ob...')
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\M_surat_jalan_progress.php(42): App\Controllers\M_surat_jalan_progress->printtofile('98')
+#3 C:\xampp\htdocs\ihelpfrontend\app\Controllers\M_surat_jalan_progress.php(28): App\Controllers\M_surat_jalan_progress->create()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\M_surat_jalan_progress->index()
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\M_surat_jalan_progress))
+#6 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-26 03:12:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\API\ResponseTrait.php(423): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\API\ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Debug\Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

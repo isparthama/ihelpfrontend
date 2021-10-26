@@ -32,9 +32,9 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => '34.122.13.88',
+		'hostname' => 'FOCO-SVR',
 		'username' => 'sa',
-		'password' => 'P@ssw0rd123!',
+		'password' => 'Plaza123',
 		'database' => 'ihelp',
 		'DBDriver' => 'SQLSRV',
 		'DBPrefix' => '',

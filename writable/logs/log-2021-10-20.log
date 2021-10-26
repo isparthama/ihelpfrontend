@@ -1,0 +1,37 @@
+CRITICAL - 2021-10-20 23:46:20 --> Too few arguments to function App\Controllers\Cetak::permissionrequest(), 0 passed in C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Cetak->permissionrequest()
+#1 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cetak))
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-20 23:49:53 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sizeof(): Param...', 'C:\\xampp\\htdocs...', 149, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Permissionrequest.php(149): sizeof(NULL)
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Permissionrequest.php(37): App\Controllers\Permissionrequest->store()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 23:54:18 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sizeof(): Param...', 'C:\\xampp\\htdocs...', 150, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Permissionrequest.php(150): sizeof(NULL)
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Permissionrequest.php(37): App\Controllers\Permissionrequest->store()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-20 23:56:13 --> Undefined property: stdClass::$signature_time
+#0 C:\xampp\htdocs\ihelpfrontend\app\Views\email_template_permission_approved.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('email_template_...', Array, true)
+#4 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Permissionrequest.php(209): view('email_template_...', Array)
+#5 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Permissionrequest.php(183): App\Controllers\Permissionrequest->sendEmail(94)
+#6 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Permissionrequest.php(37): App\Controllers\Permissionrequest->store()
+#7 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Permissionrequest->index()
+#8 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Permissionrequest))
+#9 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

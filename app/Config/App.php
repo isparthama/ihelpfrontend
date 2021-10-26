@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost:8080/ihelpfrontend/public/';
+	public $baseURL = 'http://plazaadika.com:8089/ihelpfrontend';
 
 	/**
 	 * --------------------------------------------------------------------------

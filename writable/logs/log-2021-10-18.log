@@ -1,0 +1,76 @@
+ERROR - 2021-10-18 20:19:37 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+CRITICAL - 2021-10-18 20:19:37 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ihelpfrontend\app\Models\LoginModel.php(12): CodeIgniter\Database\BaseConnection->query('exec [m_user_lo...')
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(31): App\Models\LoginModel->getbyemail('atr.esteler77@g...', '4BD383C7')
+#3 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(18): App\Controllers\Login->dologin()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-18 20:20:26 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+CRITICAL - 2021-10-18 20:20:26 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ihelpfrontend\app\Models\LoginModel.php(12): CodeIgniter\Database\BaseConnection->query('exec [m_user_lo...')
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(31): App\Models\LoginModel->getbyemail('atr.esteler77@g...', '4BD383C7')
+#3 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(18): App\Controllers\Login->dologin()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-18 20:21:27 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+CRITICAL - 2021-10-18 20:21:27 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ihelpfrontend\app\Models\LoginModel.php(12): CodeIgniter\Database\BaseConnection->query('exec [m_user_lo...')
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(31): App\Models\LoginModel->getbyemail('atr.esteler77@g...', '4BD383C7')
+#3 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(18): App\Controllers\Login->dologin()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-18 20:24:19 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+CRITICAL - 2021-10-18 20:24:19 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ihelpfrontend\app\Models\LoginModel.php(12): CodeIgniter\Database\BaseConnection->query('exec [m_user_lo...')
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(31): App\Models\LoginModel->getbyemail('atr.esteler77@g...', '4BD383C7')
+#3 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(18): App\Controllers\Login->dologin()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-18 20:37:08 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+CRITICAL - 2021-10-18 20:37:08 --> Unable to connect to the database.
+Main connection [SQLSRV]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ihelpfrontend\app\Models\LoginModel.php(12): CodeIgniter\Database\BaseConnection->query('exec [m_user_lo...')
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(31): App\Models\LoginModel->getbyemail('atr.esteler77@g...', '4BD383C7')
+#3 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(18): App\Controllers\Login->dologin()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-18 20:43:00 --> Error connecting to the database: Login failed for user 'NT AUTHORITY\SYSTEM'.
+ Driver's SQLSetConnectAttr failed
+Cannot open database "ihelp" requested by the login. The login failed.
+CRITICAL - 2021-10-18 20:43:00 --> Unable to connect to the database.
+Main connection [SQLSRV]: Login failed for user 'NT AUTHORITY\SYSTEM'.
+ Driver's SQLSetConnectAttr failed
+Cannot open database "ihelp" requested by the login. The login failed.
+#0 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ihelpfrontend\app\Models\LoginModel.php(12): CodeIgniter\Database\BaseConnection->query('exec [m_user_lo...')
+#2 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(31): App\Models\LoginModel->getbyemail('atr.esteler77@g...', '4BD383C7')
+#3 C:\xampp\htdocs\ihelpfrontend\app\Controllers\Login.php(18): App\Controllers\Login->dologin()
+#4 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ihelpfrontend\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ihelpfrontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -148,7 +148,7 @@
                 <div class="signin-content">
                     <div class="signin-image center_content">
                         <figure>
-                            <img alt="Sign up image" src="<?php echo base_url('assets/layout/images/logo_cowellcommercial.png');?>" onerror="this.src='/storage/src/login_image.png';">
+                            <img alt="Sign up image" src="<?php echo base_url('assets/layout/images/logo_cowellcommercial.png');?>" >
                         </figure>
                     </div>
 
