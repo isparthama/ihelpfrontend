@@ -6,7 +6,9 @@
 
 
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/DataTables/datatables.css');?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/DataTables/jquery-ui.css');?>">
 <script type="text/javascript" charset="utf8" src="<?php echo base_url('assets/DataTables/jquery-3.6.0.min.js');?>"></script>
+<script type="text/javascript" charset="utf8" src="<?php echo base_url('assets/DataTables/jquery-ui.js');?>"></script>
 <script type="text/javascript" charset="utf8" src="<?php echo base_url('assets/DataTables/datatables.js');?>"></script> 
 <div id='list'>
     <p><input type="button" value="Tambah Data" onclick="tambahdata()">
@@ -78,7 +80,7 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="formGroupstart_date">Start Date</label>
-            <div id='elstart_date'><input class="form-control" type='date' id='start_date' name='start_date'></div><div id='lbstart_date'></div>
+            <div id='elstart_date'><input class="form-control" type='text' id='start_date' name='start_date'></div><div id='lbstart_date'></div>
         </div>
         <div class="form-group col-md-6">
             <label for="formGroupstart_time">Time Start</label>
@@ -88,7 +90,7 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="formGroupstart_date">End Date</label>
-            <div id='elend_date'><input class="form-control" type='date' id='end_date' name='end_date'></div><div id='lbend_date'></div>
+            <div id='elend_date'><input class="form-control" type='text' id='end_date' name='end_date'></div><div id='lbend_date'></div>
         </div>
         <div class="form-group col-md-6">
             <label for="formGroupstart_date">Time End</label>
@@ -397,7 +399,7 @@ function addfacility(){
     var end_time=$('#end_time').val();
 
 
-    $('#facilitytbl tr:last').after('<tr><td><select class="form-control" type="text" id="idfacility" name="idfacility[]"><option value="">Pilih Facility</option><?php echo $stroptfacility;?></select></td><td><input class="form-control" type="date" id="from_date" name="from_date[]" value="'+start_date+'"></td><td><input class="form-control" type="time" id="from_time" name="from_time[]" value="'+start_time+'"></td><td><input class="form-control" type="date" id="to_date" name="to_date[]" value="'+end_date+'"></td><td><input class="form-control" type="time" id="to_time" name="to_time[]" value="'+end_time+'"></td></tr>');
+    $('#facilitytbl tr:last').after('<tr><td><select class="form-control" type="text" id="idfacility" name="idfacility[]"><option value="">Pilih Facility</option><?php echo $stroptfacility;?></select></td><td><input class="form-control" type="text" id="from_date" name="from_date[]" value="'+start_date+'"></td><td><input class="form-control" type="time" id="from_time" name="from_time[]" value="'+start_time+'"></td><td><input class="form-control" type="text" id="to_date" name="to_date[]" value="'+end_date+'"></td><td><input class="form-control" type="time" id="to_time" name="to_time[]" value="'+end_time+'"></td></tr>');
 }
 
 function addmulitime(){
@@ -607,7 +609,17 @@ function applyrole(){
                 $('#multitime').hide();
             }
             
-            
+            $('#start_date').datepicker({ 
+                minDate: 0,
+                maxDate: "+"+(data.range_days-1)+"D"
+
+            });
+
+            $('#end_date').datepicker({ 
+                minDate: 0,
+                maxDate: "+"+(data.max_end-1)+"D"
+
+            });
 
         }
     );
