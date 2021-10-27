@@ -25,10 +25,11 @@
         <tbody>
             <?php foreach($transaksi as $row){?>
             <tr>
-                <td><?php if($row->statusid==1){?><button type="button" class="btn btn-danger" onclick="javascript:view(<?php echo $row->id?>)">
+                <td><div id="numberrow<?php echo $row->id;?>"><?php if($row->statusid==1){?><button type="button" class="btn btn-danger" onclick="javascript:view(<?php echo $row->id?>)">
                     <span id="spinner<?php echo $row->id?>" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none"></span>
                     <?php echo $row->id?>
-                </button><?php } else {?>
+                </button>
+                </div><?php } else {?>
                     <a href="javascript:view(<?php echo $row->id?>)">
                     <span id="spinner<?php echo $row->id?>" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none"></span>
                     <?php echo $row->id?>
@@ -132,6 +133,7 @@
             <input type='hidden' id='id' name='id' value=''>
             <input type='hidden' id='status' name='status' value=''>
             <input type='hidden' id='statusket' name='statusket' value=''>
+            <input type='hidden' id='nama_lengkap' name='nama_lengkap' value='<?php echo $user['nama_lengkap'];?>'>
         </div>
 
         <div class="form-row">
@@ -247,6 +249,7 @@
 function sendcomments(){
     var comment=$('#comment').val();
     var id=$('#id').val();
+    var nama_lengkap=$('#nama_lengkap').val();
 
     $.ajax({
             url: '<?php echo base_url('m_comment');?>',
@@ -258,7 +261,7 @@ function sendcomments(){
             success: function (result) {
                 var obj=jQuery.parseJSON(result);
                 
-                $('#commentlisttbl tr:last').after('<tr><td>'+obj.created_at+'</td><td>'+obj.nama_lengkap+'</td><td>'+obj.Keterangan+'</td></tr>');
+                $('#commentlisttbl tr:last').after('<tr><td>'+obj.created_at+'</td><td>'+nama_lengkap+'</td><td>'+obj.Keterangan+'</td></tr>');
             }
     });
 }
@@ -373,9 +376,9 @@ function view(id){
             $("#departemen").val(data.departemenid);
             
 
-            if (data.media_1!='') $("#img3").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=3');
+            if (data.media_1!='') $("#img1").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=1');
             if (data.media_2!='') $("#img2").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=2');
-            if (data.media_3!='') $("#img1").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=1');
+            if (data.media_3!='') $("#img3").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=3');
             
             $('#pilihkategory').show();
 
@@ -501,6 +504,7 @@ function approve(){
                 } else {
                     alert("Tenant Complain Approved "+data.id);
                     $('#statusrow'+id).html(action);
+                    $('#numberrow'+id).html(id);
 
                     if (status==2){
                         var selected_category=$('#tipecategory :selected').text();

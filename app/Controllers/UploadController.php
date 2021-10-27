@@ -36,7 +36,7 @@ class UploadController extends BaseController {
         }
 
         // Image was not found
-        $image_content = file_get_contents('uploads/'.$file_path);
+        $image_content = file_get_contents('public/uploads/'.$file_path);
 
         if($image_content === FALSE)
         {

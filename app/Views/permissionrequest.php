@@ -38,7 +38,10 @@
                 <td><?php echo substr($row->Mulai,0,10);?></td>
                 <td><?php echo substr($row->Selesai,0,10);?></td>
                 <td><?php echo $row->created_at;?></td>
-                <td><div id='statusrow<?php echo $row->id;?>'><?php echo $row->ketstatus;?></div></td>
+                <td><div id='statusrow<?php echo $row->id;?>'>
+                <?php if ($row->statusid==1){?><button type="button" class="btn btn-danger"><?php echo $row->ketstatus;?></button>
+                <?php } elseif ($row->statusid==3){?><button type="button" class="btn btn-warning"><?php echo $row->ketstatus;?></button>
+                <?php } else { echo $row->ketstatus;}?></div></td>
             </tr>
             <?php }?>
         </tbody>
@@ -147,16 +150,14 @@
         <div class="form-row">
                 <table class="table table-bordered" id='itemtbl'>
                     <tr>
-                        <th>itemcode</th>
                         <th>itemname</th>
                         <th>quantity</th>
-                        <th>note</th>
                     </tr>
                     <tr>
-                        <td><input class="form-control" type='text' id='itemcode' name='itemcode[]'></td>
-                        <td><input class="form-control" type='text' id='itemname' name='itemname[]'></td>
-                        <td><input class="form-control" type='number' id='quantity' name='quantity[]'></td>
-                        <td><input class="form-control" type='text' id='note' name='note[]'></td>
+                        
+                        <td><input class="form-control" type='hidden' id='itemcode' name='itemcode[]'><input class="form-control" type='text' id='itemname' name='itemname[]'></td>
+                        <td><input class="form-control" type='hidden' id='note' name='note[]'><input class="form-control" type='number' id='quantity' name='quantity[]'></td>
+                        
                     </tr>
                 </table>
         </div>
@@ -383,7 +384,7 @@ function showlable(){
     $('#btnmultitime').hide();
 }
 function additem(){
-    $('#itemtbl tr:last').after('<tr><td><input class="form-control" type="text" id="itemcode" name="itemcode[]"></td><td><input class="form-control" type="text" id="itemname" name="itemname[]"></td><td><input class="form-control" type="number" id="quantity" name="quantity[]"></td><td><input class="form-control" type="text" id="note" name="note[]"></td></tr>');
+    $('#itemtbl tr:last').after('<tr><td><input class="form-control" type="hidden" id="itemcode" name="itemcode[]"><input class="form-control" type="text" id="itemname" name="itemname[]"></td><td><input class="form-control" type="hidden" id="note" name="note[]"><input class="form-control" type="number" id="quantity" name="quantity[]"></td></tr>');
 }
 
 function addfacility(){

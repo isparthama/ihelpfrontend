@@ -78,7 +78,7 @@ class M_surat_jalan_progress extends BaseController {
         $output = $dompdf->output();
 
         $printed_filename='SURATJALAN'.$result->id.'.pdf';
-        file_put_contents('generated/'.$printed_filename, $output);
+        file_put_contents('public/generated/'.$printed_filename, $output);
 
         $this->m_suratjalanModel->printed_filename($id,$printed_filename);
 

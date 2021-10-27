@@ -191,8 +191,13 @@ class Permissionrequest extends BaseController {
         );
 
         if ($result){
-            $this->sendEmail($result->id);
-            return redirect()->to(base_url('Permissionrequest'));
+            if ($result->status_request=='Gagal'){
+                echo "<script>alert('Gagal ".$result->keterangan."')</script>";
+                return redirect()->to(base_url('Permissionrequest'));
+            } else {
+                $this->sendEmail($result->id);
+                return redirect()->to(base_url('Permissionrequest'));
+            }
         } else {
             echo 'gagal';
         }
