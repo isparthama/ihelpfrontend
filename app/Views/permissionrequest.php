@@ -475,7 +475,7 @@ function view(id){
             $('#itemtbl').find("tr:gt(0)").remove();
             var item=JSON.parse(data.json_items);
             $.each(item, function(index,obj){
-                $('#itemtbl tr:last').after('<tr><td>'+obj.itemcode+'</td><td>'+obj.itemname+'</td><td>'+obj.quantity+'</td><td>'+obj.note+'</td></tr>');
+                $('#itemtbl tr:last').after('<tr><td>'+obj.itemname+'</td><td>'+obj.quantity+'</td></tr>');
             });
 
             $('#facilitytbl').find("tr:gt(0)").remove();

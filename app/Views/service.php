@@ -25,18 +25,19 @@
         <tbody>
             <?php foreach($transaksi as $row){?>
             <tr>
-                <td><div id="numberrow<?php echo $row->id;?>"><?php if($row->statusid==1){?><button type="button" class="btn btn-danger" onclick="javascript:view(<?php echo $row->id?>)">
+                <td><div id="numberrow<?php echo $row->id;?>">
                     <span id="spinner<?php echo $row->id?>" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none"></span>
-                    <?php echo $row->id?>
-                </button>
-                </div><?php } else {?>
                     <a href="javascript:view(<?php echo $row->id?>)">
-                    <span id="spinner<?php echo $row->id?>" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none"></span>
                     <?php echo $row->id?>
                     </a>
-                    <?php }?>
                 </td>
-                <td><div id="statusrow<?php echo $row->id?>"><?php echo $row->status?></div></td>
+                <td><div id="statusrow<?php echo $row->id?>"><?php if($row->statusid==1){?><button type="button" class="btn btn-danger" onclick="javascript:view(<?php echo $row->id?>)">
+                <?php echo $row->status?></div>
+                </button>
+                </div><?php } else {?>
+                    <?php echo $row->status?>
+                <?php }?>
+                </td>
                 <td><?php echo $row->building?></td>
                 <td><?php echo $row->tenant_name?></td>
                 <td><?php echo $row->title?></td>
@@ -262,6 +263,7 @@ function sendcomments(){
                 var obj=jQuery.parseJSON(result);
                 
                 $('#commentlisttbl tr:last').after('<tr><td>'+obj.created_at+'</td><td>'+nama_lengkap+'</td><td>'+obj.Keterangan+'</td></tr>');
+                $('#comment').val('');
             }
     });
 }
