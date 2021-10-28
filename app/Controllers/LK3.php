@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 
 
-class Dashboard extends BaseController {
+class Lk3 extends BaseController {
     public $SERVER;
     var $monitoringmodel=null;
 
@@ -20,6 +20,8 @@ class Dashboard extends BaseController {
         $data['user']=session()->get('userinfo');
         
         echo view('menu',$data);
-        echo view('dashboard');
+        echo "<center><strong>Maaf menu ini masih dalam pengembangan</strong></center>";
+        echo "<p><center><image src='assets/images/maintenance.jpg'></center>";
+        
     }
 }

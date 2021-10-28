@@ -1,0 +1,1 @@
+<img class='img-fluid w-100' src="<?php echo base_url('assets/images/Banner PASS Card-01.jpg');?>">

@@ -35,13 +35,16 @@
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="<?php echo base_url('dashboard');?>">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('permissionrequest');?>">Permision Request</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('service');?>">Tenant Complain</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('lk3');?>">LK3</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('Login');?>">Logout</a>

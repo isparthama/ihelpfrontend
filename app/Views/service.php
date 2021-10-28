@@ -25,9 +25,10 @@
         <tbody>
             <?php foreach($transaksi as $row){?>
             <tr>
-                <td><div id="numberrow<?php echo $row->id;?>">
+                <td>
                     <span id="spinner<?php echo $row->id?>" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none"></span>
                     <a href="javascript:view(<?php echo $row->id?>)">
+                    <div id="numberrow<?php echo $row->id;?>">
                     <?php echo $row->id?>
                     </a>
                 </td>
@@ -71,15 +72,19 @@
                 </div>
                 <div id='lbunit'></div>
             </div>
-            <div class="form-group col-md-3">
-                <div style="display: none">Name</div>
-                <div id="elname" style="display: none"><input class="form-control" type='label' id='name' name='name' value=''></div>
-                <div id='lbname' style="display: none"></div>
-            </div>
-            <div class="form-group col-md-3">
-                <div style="display: none">Detail</div>
-                <div id="eldetail" style="display: none"><input class="form-control" type='label' id='detail' name='detail' value=''></div>
-                <div id='lbdetail' style="display: none"></div>
+            <div class="form-group col-md-6">
+                <div id="pilihkategory" style="display:none">
+                <label for="formGroupnote">Kategory</label>
+                <div id="eltipecategory">
+                    <select class="form-control"  id="tipecategory" name="tipecategory">
+                        <option value=''>Pilih Kategory</option>
+                        <?php foreach($m_category as $row) {?>
+                            <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
+                        <?php }?>
+                    </select>
+                </div>
+                <div id='lbtipecategory'></div>
+                </div>
             </div>
         </div>
         <div class="form-row">
@@ -87,6 +92,20 @@
                 <label for="formGrouptitle">Title</label>
                 <div id="eltitle"><input class="form-control" type='text' id='title' name='title' value=''></div>
                 <div id='lbtitle' style="display: none"></div>
+            </div>
+            <div class="form-group col-md-6">
+                <div id="pilihdepartemen" style="display:none">
+                <label for="formGroupnote">Departemen</label>
+                <div id="eldepartemen">
+                    <select class="form-control"  id="departemen" name="departemen">
+                        <option value=''>Pilih Departemen</option>
+                        <?php foreach($m_departemen as $row) {?>
+                            <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
+                        <?php }?>
+                    </select>
+                </div>
+                <div id='lbdepartemen'></div>
+                </div>
             </div>
         </div>
         <div class="form-row">
@@ -112,70 +131,30 @@
                 <div id='lbnote' style="display: none"></div>
             </div>
         </div>
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="formGroupnote">Picture 1</label>
-                <div id="elimage1"><input class="form-control" type='file' id='image1' name='image1' value=''></div>
-                <div id='lbimage1' style="display: none"><img src="" id="img1" width='250' height='250'></div>
-            </div>
-            <div class="form-group col-md-4">
-                <label for="formGroupnote">Picture 2</label>
-                <div id="elimage2"><input class="form-control" type='file' id='image2' name='image2' value=''></div>
-                <div id='lbimage2' style="display: none"><img src="" alt="" class="imgfile" data-target='att2' id="img2"  width='250' height='250'></div>
-            </div>
-            <div class="form-group col-md-4">
-                <label for="formGroupnote">Picture 3</label>
-                <div id="elimage3"><input class="form-control"  type='file' id='image3' name='image3' value=''></div>
-                <div id='lbimage3' style="display: none"><img src="" alt="" class="imgfile" data-target='att3' id="img3"  width='250' height='250'></div>
-            </div>
-        </div>
-
-        <div>
-            <input type='hidden' id='id' name='id' value=''>
-            <input type='hidden' id='status' name='status' value=''>
-            <input type='hidden' id='statusket' name='statusket' value=''>
-            <input type='hidden' id='nama_lengkap' name='nama_lengkap' value='<?php echo $user['nama_lengkap'];?>'>
-        </div>
 
         <div class="form-row">
             <div class="form-group col-md-12">
-                <div id="pilihkategory" style="display:none">
-                    <label for="formGroupnote">Kategory</label>
-                    <div id="eltipecategory">
-                        <select class="form-control"  id="tipecategory" name="tipecategory">
-                            <option value=''>Pilih Kategory</option>
-                            <?php foreach($m_category as $row) {?>
-                                <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
-                            <?php }?>
-                        </select>
+                <div id='ctcomment' style="display:none">
+                    <p><h2>History Comment</h2>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <table class="table table-bordered" id="commentlisttbl">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">Comments</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                    <div id='lbtipecategory'></div>
-                    <label for="formGroupnote">Departemen</label>
-                    <div id="eldepartemen">
-                        <select class="form-control"  id="departemen" name="departemen">
-                            <option value=''>Pilih Departemen</option>
-                            <?php foreach($m_departemen as $row) {?>
-                                <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
-                            <?php }?>
-                        </select>
+                    <div class="form-row">
+                        <div class="form-group col-md-9">
+                            <textarea class="form-control" rows="2" id="comment"></textarea>
+                        </div>
+                        <div class="form-group col-md-1">
+                            <button type="button" class="btn btn-primary" onclick="javascript:sendcomments()">Send Comment</button>
+                        </div>
                     </div>
-                    <div id='lbdepartemen'></div>
-                </div>
-            </div>
-        </div>                                                                                                  
-        <div class="form-row">
-            <div class="form-group col-md-12">
-                <div id="pilihalasan" style="display:none">
-                    <label for="formGroupnote">Alasan</label>
-                    <div id="elalasan">
-                        <select class="form-control" id="alasan" name="alasan">
-                            <option value=''>Pilih Alasan</option>
-                            <?php foreach($m_category as $row) {?>
-                                <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
-                            <?php }?>
-                        </select>
-                    </div>
-                    <div id='lbalasan'></div>
                 </div>
             </div>
         </div>
@@ -209,32 +188,50 @@
         </div>
 
         <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="formGroupnote">Picture 1</label>
+                <div id="elimage1"><input class="form-control" type='file' id='image1' name='image1' value=''></div>
+                <div id='lbimage1' style="display: none"><img src="" id="img1" width='250' height='250'></div>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="formGroupnote">Picture 2</label>
+                <div id="elimage2"><input class="form-control" type='file' id='image2' name='image2' value=''></div>
+                <div id='lbimage2' style="display: none"><img src="" alt="" class="imgfile" data-target='att2' id="img2"  width='250' height='250'></div>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="formGroupnote">Picture 3</label>
+                <div id="elimage3"><input class="form-control"  type='file' id='image3' name='image3' value=''></div>
+                <div id='lbimage3' style="display: none"><img src="" alt="" class="imgfile" data-target='att3' id="img3"  width='250' height='250'></div>
+            </div>
+        </div>
+
+        <div>
+            <input type='hidden' id='id' name='id' value=''>
+            <input type='hidden' id='status' name='status' value=''>
+            <input type='hidden' id='statusket' name='statusket' value=''>
+            <input type='hidden' id='nama_lengkap' name='nama_lengkap' value='<?php echo $user['nama_lengkap'];?>'>
+        </div>
+
+        <div class="form-row">
             <div class="form-group col-md-12">
-                <div id='ctcomment' style="display:none">
-                    <p><h2>History Comment</h2>
-                    <div class="form-row">
-                        <div class="form-group col-md-12">
-                            <table class="table table-bordered" id="commentlisttbl">
-                                <tbody>
-                                    <tr>
-                                        <td colspan="3">Comments</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                <div id="pilihalasan" style="display:none">
+                    <label for="formGroupnote">Alasan</label>
+                    <div id="elalasan">
+                        <select class="form-control" id="alasan" name="alasan">
+                            <option value=''>Pilih Alasan</option>
+                            <?php foreach($m_category as $row) {?>
+                                <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
+                            <?php }?>
+                        </select>
                     </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-9">
-                            <textarea class="form-control" rows="2" id="comment"></textarea>
-                        </div>
-                        <div class="form-group col-md-1">
-                            <button type="button" class="btn btn-primary" onclick="javascript:sendcomments()">Send Comment</button>
-                        </div>
-                    </div>
+                    <div id='lbalasan'></div>
                 </div>
             </div>
         </div>
 
+        
+
+        
         <div class="form-row">
             <div id="btngroup">
                 <input type="Submit" value="Simpan" id="btnsimpan">
@@ -303,6 +300,7 @@ function showelements(){
     $('#btnapprove').hide();
 
     $('#pilihkategory').hide();
+    $('#pilihdepartemen').hide();
 }
 
 function showlable(){
@@ -383,6 +381,7 @@ function view(id){
             if (data.media_3!='') $("#img3").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=3');
             
             $('#pilihkategory').show();
+            $('#pilihdepartemen').show();
 
             if (data.status>=1){
                 $('#btnapprove').show();
@@ -450,6 +449,7 @@ function approve(){
     
     if (status==2&&category==null){
         $('#pilihkategory').show();
+        $('#pilihdepartemen').show();
 
         alert('pilih kategori');
 
@@ -506,7 +506,7 @@ function approve(){
                 } else {
                     alert("Tenant Complain Approved "+data.id);
                     $('#statusrow'+id).html(action);
-                    $('#numberrow'+id).html(id);
+                    $('#numberrow'+id).html('<a href="javascript:view('+id+')">'+id+'</a>');
 
                     if (status==2){
                         var selected_category=$('#tipecategory :selected').text();
