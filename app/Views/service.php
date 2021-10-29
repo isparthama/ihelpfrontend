@@ -375,6 +375,13 @@ function view(id){
             $("#tipecategory").val(data.category);
             $("#departemen").val(data.departemenid);
             
+            jQuery('#img1').removeAttr('src')
+            jQuery('#img1').show();
+            jQuery('#img2').removeAttr('src')
+            jQuery('#img2').show();
+            jQuery('#img3').removeAttr('src')
+            jQuery('#img3').show();
+
 
             if (data.media_1!='') $("#img1").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=1');
             if (data.media_2!='') $("#img2").prop('src','<?php echo base_url();?>/UploadController?id='+id+'&mediaid=2');
