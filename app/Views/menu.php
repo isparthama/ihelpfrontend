@@ -30,7 +30,8 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          
+          <?php $masteraccess=0;
+          if ($masteraccess==1){?>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Master</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -38,15 +39,20 @@
               <a class="dropdown-item" href="<?php echo base_url('tenant');?>">Tenant</a>
             </div>
           </li>
+          <?php }?>
           <li class="nav-item active">
             <a class="nav-link" href="<?php echo base_url('Permissionrequest');?>">Surat Ijin <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="<?php echo base_url('service');?>">Tenant Complain<span class="sr-only">(current)</span></a>
           </li>
+          <?php 
+          $lk3access=0;
+          if ($lk3access==1){?>
           <li class="nav-item active">
             <a class="nav-link" href="<?php echo base_url('lk3');?>">LK3<span class="sr-only">(current)</span></a>
           </li>
+          <?php }?>
           <li class="nav-item active">
                 <a class="nav-link" href="<?php echo base_url('Login');?>">Logout</a>
             </li>

@@ -20,4 +20,28 @@ class M_unitModel extends Model
 
         return $this->db->query($sql);
     }
+
+    public function store(
+        $Keterangan,
+        $buildingid,
+        $unit_code,
+        $businessgroupid,
+        $buisnesstypeid,
+        $floor,
+        $line,
+        $detail
+        ) {
+            $sql="[dbo].[m_unit_code_create]
+            '$Keterangan',
+            '$buildingid',
+            '$unit_code',
+            '$businessgroupid',
+            '$buisnesstypeid',
+            '$floor',
+            '$line',
+            '$detail'            
+            ";
+
+        return $this->db->query($sql);
+        }
 }

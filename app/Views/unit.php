@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-header">
-    <h1>LK3</h1>
+    <h1>Unit</h1>
   </div>
   <div class="card-body">
 
@@ -19,14 +19,8 @@
         <tbody>
             <?php foreach($unit as $row){?>
             <tr>
-                <td>
-                    <span id="spinner<?php echo $row->id?>" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display:none"></span>
-                    <a href="javascript:view(<?php echo $row->id?>)">
-                    <div id="numberrow<?php echo $row->id;?>">
-                    <?php echo $row->id?>
-                    </a>
-                </td>
-                <td><div id="departemenrow<?php echo $row->id?>"><?php echo $row->buildingid?></div></td>
+                
+                <td><div id="departemenrow<?php echo $row->id?>"><?php echo $row->building_code?></div></td>
                 <td><?php echo $row->unit_code?></td>
                 <td><?php echo $row->Keterangan?></td>
                 <td><?php echo $row->detail?></td>
@@ -37,138 +31,68 @@
     </table>
 </div>
 <div id='form'">
-    <form method="post" action="<?php echo base_url('lk3');?>"  enctype="multipart/form-data">
-        <p>LK3 INFORMATION
+    <form method="post" action="<?php echo base_url('unit');?>"  enctype="multipart/form-data">
+        <p>UNIT INFORMATION
         <div class="form-row">
             <div class="form-group col-md-6">
-                <div id="pilihkategory">
-                <label for="formGroupnote">Area</label>
-                <div id="eltipecategory">
-                    <select class="form-control"  id="building" name="building">
-                        <option value=''>Pilih Area</option>
-                        <?php foreach($m_building as $row) {?>
-                            <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
-                        <?php }?>
-                    </select>
-                </div>
-                <div id='lbtipecategory'></div>
-                </div>
+                <label for="formGroupnote">Buliding</label>
+                <select class="form-control"  id="building" name="building">
+                    <option value=''>Pilih Area</option>
+                    <?php foreach($m_building as $row) {?>
+                        <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
+                    <?php }?>
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="formGroupnote">Unit Code</label>
+                <input class="form-control" type='text' id='unit_code' name='unit_code' value=''>
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="formGroupnote">Asset</label>
-                <div id="elasset">
-                    <input class="form-control" type='text' id='asset' name='asset' value=''>
-                </div>
-                <div id='lbasset' style="display: none"></div>
+                <label for="formGroupnote">Unit Name</label>
+                <input class="form-control" type='text' id='keterangan' name='keterangan' value=''>
             </div>
             <div class="form-group col-md-6">
-                <label for="formGroupnote">Quantity</label>
-                <div id="elquantity">
-                    <input class="form-control" type='text' id='quantity' name='quantity' value=''>
-                </div>
-                <div id='lbquantity' style="display: none"></div>
+                <label for="formGroupnote">Business Group</label>
+                <select class="form-control"  id="businessgroupid" name="businessgroupid">
+                    <option value=''>Pilih Business Group</option>
+                    <?php foreach($m_business_group as $row) {?>
+                        <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
+                    <?php }?>
+                </select>
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="formGroupnote">Location</label>
-                <div id="ellocation">
-                    <input class="form-control" type='text' id='location' name='location' value=''>
-                </div>
-                <div id='lblocation' style="display: none"></div>
+                <div><label for="formGroupnote">Business Type</label></div>
+                <select class="form-control"  id="buisnesstypeid" name="buisnesstypeid">
+                    <option value=''>Pilih Business Type</option>
+                    <?php foreach($m_business_type as $row) {?>
+                        <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
+                    <?php }?>
+                </select>
             </div>
             <div class="form-group col-md-6">
-                <div><label for="formGroupnote">Urgent</label></div>
-                <div id="elurgent" class="form-check form-check-inline">
-                    <div><input class="form-check-input" type='radio' id='urgent' name='urgent' value='urgent'>Urgent</div>
-                </div>
-                <div id="elnormal" class="form-check form-check-inline">
-                    <div><input class="form-check-input" type='radio' id='urgent' name='urgent' value='normal'>Normal</div>
-                </div>
-                <div id='lburgent' style="display: none"></div>
+                <label for="formGroupnote">Floor</label>
+                <input class="form-control" type='text' id='floor' name='floor' value=''>
             </div>
         </div>
-        
-
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="formGroupnote">Line</label>
+                <input class="form-control" type='text' id='line' name='line' value=''>
+            </div>
+        </div>
         <div class="form-row">
             <div class="form-group col-md-12">
-                <div id='approvedby' style="display:none">
-                    <p><h2>Progress</h2>
-                    <table class="table table-bordered" id="approvedbytbl">
-                        <thead>
-                            <tr>
-                                <th>Action</th>
-                                <th>Action Time</th>
-                                <th>Staff</th>
-                                <th>Position</th>
-                                <th>Note</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Number</td>
-                                <td>Staff</td>
-                                <td>Position</td>
-                                <td>Approved Date</td>
-                                <td>Note</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <label for="formGroupnote">Detail</label>
+                <input class="form-control" type='text' id='detail' name='detail' value=''>
             </div>
         </div>
-
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="formGroupnote">Picture 1</label>
-                <div id="elimage1"><input class="form-control" type='file' id='image1' name='image1' value=''></div>
-                <div id='lbimage1' style="display: none"><img src="" id="img1" width='250' height='250'></div>
-            </div>
-            <div class="form-group col-md-4">
-                <label for="formGroupnote">Picture 2</label>
-                <div id="elimage2"><input class="form-control" type='file' id='image2' name='image2' value=''></div>
-                <div id='lbimage2' style="display: none"><img src="" alt="" class="imgfile" data-target='att2' id="img2"  width='250' height='250'></div>
-            </div>
-            <div class="form-group col-md-4">
-                <label for="formGroupnote">Picture 3</label>
-                <div id="elimage3"><input class="form-control"  type='file' id='image3' name='image3' value=''></div>
-                <div id='lbimage3' style="display: none"><img src="" alt="" class="imgfile" data-target='att3' id="img3"  width='250' height='250'></div>
-            </div>
-        </div>
-
-        <div>
-            <input type='hidden' id='id' name='id' value=''>
-            <input type='hidden' id='status' name='status' value=''>
-            <input type='hidden' id='statusket' name='statusket' value=''>
-            <input type='hidden' id='nama_lengkap' name='nama_lengkap' value='<?php echo $user['nama_lengkap'];?>'>
-        </div>
-
-        <div class="form-row">
-            <div class="form-group col-md-12">
-                <div id="pilihalasan" style="display:none">
-                    <label for="formGroupnote">Alasan</label>
-                    <div id="elalasan">
-                        <select class="form-control" id="alasan" name="alasan">
-                            <option value=''>Pilih Alasan</option>
-                            <?php foreach($m_category as $row) {?>
-                                <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
-                            <?php }?>
-                        </select>
-                    </div>
-                    <div id='lbalasan'></div>
-                </div>
-            </div>
-        </div>
-
-        
-
-        
         <div class="form-row">
             <div id="btngroup">
                 <input type="Submit" value="Simpan" id="btnsimpan">
-                <input type="button" value="Approve" onclick="approve()" id="btnapprove">
                 <input type="button" value="Back" onclick="listdata()">
             </div>
         </div>
