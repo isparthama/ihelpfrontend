@@ -15,13 +15,15 @@ class M_unitModel extends Model
     }
 
     public function get($id){
-        $sql="[dbo].[m_unit_get]
+        $sql="[dbo].[m_unit_code_get]
         $id";
 
         return $this->db->query($sql);
     }
 
     public function store(
+        $id,
+        $todo,
         $Keterangan,
         $buildingid,
         $unit_code,
@@ -31,6 +33,25 @@ class M_unitModel extends Model
         $line,
         $detail
         ) {
+            if ($id>0){
+                if ($todo=="delete"){
+                    $sql="[dbo].[m_unit_code_delete]
+                    '$id'
+                    ";
+                } else {
+                    $sql="[dbo].[m_unit_code_update]
+                    '$id',
+                    '$Keterangan',
+                    '$buildingid',
+                    '$unit_code',
+                    '$businessgroupid',
+                    '$buisnesstypeid',
+                    '$floor',
+                    '$line',
+                    '$detail' 
+                    ";
+                    }
+            } else {
             $sql="[dbo].[m_unit_code_create]
             '$Keterangan',
             '$buildingid',
@@ -41,7 +62,13 @@ class M_unitModel extends Model
             '$line',
             '$detail'            
             ";
+            }
 
-        return $this->db->query($sql);
-        }
+       try {
+            $this->db->query($sql);
+            return true;
+       } catch (Exception  $e){
+            return false;
+       }
+    }
 }

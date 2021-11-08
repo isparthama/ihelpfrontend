@@ -13,4 +13,21 @@ class LoginModel extends Model
         ''");
     }
 
+    public function forgetpassword($email){
+        return $this->db->query("exec [m_user_forgotpassword] 
+        '$email'
+        ");
+    }
+
+    public function updatepassword($newpass){
+        $user=session()->get('userinfo');
+
+        $userid=$user['id'];
+
+        return $this->db->query("exec [m_user_updatepassword] 
+        '$userid',
+        '$newpass'
+        ");
+    }
+
 }

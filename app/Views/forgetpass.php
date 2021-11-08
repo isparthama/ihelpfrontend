@@ -153,23 +153,16 @@
                     </div>
 
                     <div class="signin-form">
-                        <h2 class="form-title">Sign In</h2>
+                        <h2 class="form-title">Forget Password</h2>
                         <?php if (session()->getFlashdata('msg')!=''){ echo session()->getFlashdata('msg');};?>
-                        <form method="POST" class="register-form" id="login-form" action="<?php echo base_url('Login');?>">
+                        <form method="POST" class="register-form" id="login-form" action="<?php echo base_url('forgetpass');?>">
                         	<input type="hidden" name="_token" value="E6obDoZtuzfmb7CMtR6muVwjM225YRsf2fwXaMBP">                            <div class="form-group">
                                 <label for="user"><i class="fa fa-user" aria-hidden="true"></i></label>
                                 <input type="email" name="email" id="email" placeholder="Email">
                             </div>
-                            <div class="form-group">
-                                <label for="pass"><i class="fa fa-key" aria-hidden="true"></i></label>
-                                <input type="password" name="password" id="password" placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                
-                                <a for="remember-me" class="label-agree-term" href="<?php echo base_url('forgetpass');?>"><span><span></span></span>Forgot Password?</a>
-                            </div>
-                            <div class="form-group form-button">
-                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in">
+                            <div>
+                                <button type="Submit" class="btn btn-primary">Foget</button>
+                                <button type="button" class="btn btn-danger">Cancel</button>
                             </div>
                         </form>
                                             </div>

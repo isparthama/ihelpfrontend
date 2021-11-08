@@ -142,4 +142,58 @@ class M_suratjalanModel extends Model
 
         return $result;
     }
+
+    public function getreportdata(
+
+  
+        $mode,
+        $search, 
+        $start, 
+        $length,
+        $from_date,
+        $to_date,
+        $status
+        ){
+        
+            
+        $sql = '';
+        if ($mode == 0)
+            $sql = 'select count(*) as rows';
+        else
+        $sql="select 
+        (select keterangan from m_surat_ijin where id=a.idtipesuratjalan) kettipesuratjalan,
+        (select keterangan from m_surat_ijin_status d where id=a.statusid) ketstatus,
+        a.*";
+        
+        
+        $sql .= " from m_suratjalan a
+        where 1=1 
+        and isnull(Mulai,'')=case when '$from_date'='' then isnull(Mulai,'') else '$from_date' end
+        and isnull(Selesai,'')=case when '$to_date'='' then isnull(Selesai,'') else '$to_date' end
+        and isnull(statusid,'')=case when '$status'='' then isnull(statusid,'') else '$status' end
+        ";
+        if ($search != '')
+            $sql .= " and (
+                suratjalan like '%$search%' or
+                Tenant like '%$search%' or
+                kettipesuratjalan like '%$search%' or
+                Judul like '%$search%' or
+                Mulai like '%$search%' or
+                Selesai like '%$search%' or
+                created_at like '%$search%' or
+                ketstatus like '%$search%'               
+            )";
+        
+        
+        if ($mode != 0){
+            $sql .= " order by id asc offset $start rows fetch next $length rows only";
+            
+        }
+
+        session()->set('sql',$sql);
+
+        $result = $this->db->query($sql)->getresultarray();
+        return $result;     
+
+    }
 }

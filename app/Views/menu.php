@@ -30,36 +30,43 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <?php $masteraccess=0;
-          if ($masteraccess==1){?>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Master</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="<?php echo base_url('unit');?>">Unit</a>
               <a class="dropdown-item" href="<?php echo base_url('tenant');?>">Tenant</a>
+              <a class="dropdown-item" href="<?php echo base_url('staff');?>">Staff</a>
             </div>
           </li>
-          <?php }?>
-          <li class="nav-item active">
-            <a class="nav-link" href="<?php echo base_url('Permissionrequest');?>">Surat Ijin <span class="sr-only">(current)</span></a>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="<?php echo base_url('Permissionrequest');?>">Surat Ijin <span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="<?php echo base_url('service');?>">Tenant Complain<span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="<?php echo base_url('lk3');?>">LK3<span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="<?php echo base_url('servicetv');?>">Tenant Complain TV<span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="<?php echo base_url('Servicelk3tv');?>">Complain & Internal TV<span class="sr-only">(current)</span></a>
+            </div>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="<?php echo base_url('service');?>">Tenant Complain<span class="sr-only">(current)</span></a>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Report</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="<?php echo base_url('Permissionrequestrpt');?>">Surat Ijin <span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="<?php echo base_url('servicerpt');?>">Tenant Complain<span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="<?php echo base_url('lk3rpt');?>">LK3<span class="sr-only">(current)</span></a>
+            </div>
           </li>
-          <?php 
-          $lk3access=0;
-          if ($lk3access==1){?>
-          <li class="nav-item active">
-            <a class="nav-link" href="<?php echo base_url('lk3');?>">LK3<span class="sr-only">(current)</span></a>
+          <li class="nav-item dropdown float-right active">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $user['nama_lengkap'];?> </a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="<?php echo base_url('changepassword');?>">Change Password</a>
+              <a class="dropdown-item" href="<?php echo base_url('Login');?>">Logout</a>
+            </div>
           </li>
-          <?php }?>
-          <li class="nav-item active">
-                <a class="nav-link" href="<?php echo base_url('Login');?>">Logout</a>
-            </li>
         </ul>
-        <ul class="navbar-nav">
+        <!-- <ul class="navbar-nav">
                 <li class="nav-item dropdown active">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <?php echo $user['nama_lengkap'];?> </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <?php //echo $user['nama_lengkap'];?> </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -69,7 +76,7 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul> -->
       </div>
     </nav>
 

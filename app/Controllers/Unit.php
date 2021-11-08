@@ -25,6 +25,7 @@ class Unit extends BaseController {
         if(! session()->get('userinfo')) return redirect()->to(base_url('Login'));
 
         if ($this->request->getMethod()=='post') return $this->store();
+        if ($this->request->getMethod()=='delete') return $this->delete();
         if ($this->request->getGet('id')>0) return $this->getdata();
 
         $data['user']=session()->get('userinfo');
@@ -38,6 +39,9 @@ class Unit extends BaseController {
     }
 
     public function store(){
+        $id=$this->request->getPost('id');
+        $todo=$this->request->getPost('todo');
+
         $Keterangan=$this->request->getPost('keterangan');
         $buildingid=$this->request->getPost('building');
         $unit_code=$this->request->getPost('unit_code');
@@ -49,6 +53,8 @@ class Unit extends BaseController {
 
 
         $result=$this->model->store(
+        $id,
+        $todo,
         $Keterangan,
         $buildingid,
         $unit_code,
@@ -57,7 +63,7 @@ class Unit extends BaseController {
         $floor,
         $line,
         $detail
-        )->getRow();
+        );
         
         if ($result){
             return redirect()->to(base_url('unit'));
@@ -67,6 +73,11 @@ class Unit extends BaseController {
     }
 
     public function getdata(){
+        $result=$this->model->get($this->request->getGet('id'))->getRow();
+        
+        
 
+        
+        echo json_encode($result);
     }
 }
