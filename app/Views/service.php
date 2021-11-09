@@ -512,6 +512,7 @@ function approve(){
                     alert(data.keterangan);
                 } else {
                     alert("Tenant Complain Approved "+data.id);
+                    if (action=='Pick Job') action="Progress";
                     $('#statusrow'+id).html(action);
                     $('#numberrow'+id).html('<a href="javascript:view('+id+')">'+id+'</a>');
 
