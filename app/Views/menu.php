@@ -27,7 +27,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      <?php if (!$user['role']){?>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown active">
@@ -64,6 +64,25 @@
             </div>
           </li>
         </ul>
+        <?php } else {?>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="<?php echo base_url('Permissionrequest');?>">Surat Ijin <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="<?php echo base_url('service');?>">Tenant Complain<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="<?php echo base_url('changepassword');?>">Change Password</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="<?php echo base_url('Login');?>">Logout</a>
+            </li>
+          </ul>
+        </div>
+
+        <?php }?>
         <!-- <ul class="navbar-nav">
                 <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <?php //echo $user['nama_lengkap'];?> </a>

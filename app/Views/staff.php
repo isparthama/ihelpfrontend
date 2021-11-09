@@ -135,7 +135,7 @@ function view(id){
         function(data, status){
             //validate time start
             //validate contractor
-            tambahda                                    ta();
+            tambahdata();
             
             $('#name').val('');
             $('#email').val('');
