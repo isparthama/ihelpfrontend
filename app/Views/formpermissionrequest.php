@@ -108,7 +108,7 @@
         $no=1;
         foreach($items as $item){?>
         <tr bgcolor="lightgrey">
-            <td><?php echo $no;?></th>
+            <td width="50"><?php echo $no;?></th>
             <td><?php echo $item->itemname;?></th>
             <td><?php echo $item->quantity;?></th>
         </tr>
