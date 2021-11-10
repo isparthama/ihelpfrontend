@@ -491,7 +491,7 @@ function approve(){
             $('#btnCancel').attr("disabled", true);
             $('#btnPending').val('Update');
         } else if (status==4){
-            $('#btnPending').attr("disabled", true);
+            $('#btnPick Job').attr("disabled", true);
             $('#btnCancel').val('Update');
         }
 
