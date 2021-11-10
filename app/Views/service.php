@@ -487,9 +487,18 @@ function approve(){
 
         alert('pilih alasan');
 
-        $('#btnCancel').attr("disabled", true);
+        if (status==7){
+            $('#btnCancel').attr("disabled", true);
+            $('#btnPending').val('Update');
+        } else if (status==4){
+            $('#btnPending').attr("disabled", true);
+            $('#btnCancel').val('Update');
+        }
+
         $('#btnDone').attr("disabled", true);
-        $('#btnPending').val('Update');
+
+        
+        
 
 
         $('#elalasan').show();
