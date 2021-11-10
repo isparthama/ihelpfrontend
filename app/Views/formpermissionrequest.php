@@ -100,10 +100,8 @@
 <p><table width=100%>
         <tr>
             <th>No</th>
-            <th>Kode</th>
             <th>Nama</th>
             <th>Qty</th>
-            <th>Note</th>
         </tr>
         <?php 
         $items=json_decode($suratjalan->json_items);
@@ -111,10 +109,8 @@
         foreach($items as $item){?>
         <tr bgcolor="lightgrey">
             <td><?php echo $no;?></th>
-            <td><?php echo $item->itemcode;?></th>
             <td><?php echo $item->itemname;?></th>
             <td><?php echo $item->quantity;?></th>
-            <td><?php echo $item->note;?></th>
         </tr>
         <?php $no++;}?>
 </table>
