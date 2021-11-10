@@ -487,11 +487,12 @@ function approve(){
 
         alert('pilih alasan');
 
+
         if (status==7){
             $('#btnCancel').attr("disabled", true);
             $('#btnPending').val('Update');
         } else if (status==4){
-            $('#btnPick Job').attr("disabled", true);
+            $('#btnPick_Job').attr("disabled", true);
             $('#btnCancel').val('Update');
         }
 
