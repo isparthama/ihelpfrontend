@@ -44,7 +44,7 @@
                 <select class="form-control"  id="PIunit_code_id" name="PIunit_code_id">
                     <option value=''>Pilih Unit</option>
                     <?php foreach($m_unit_code as $row) {?>
-                        <option value='<?php echo $row->id;?>'><?php echo $row->unit_code.'-'.$row->Keterangan;?></option>
+                        <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan.'-'.$row->unit_code;?></option>
                     <?php }?>
                 </select>
             </div>
