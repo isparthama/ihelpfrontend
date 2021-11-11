@@ -64,60 +64,10 @@ function printreport(){
     $status=$('#status').val();
 }
 $(document).ready( function () {
-        const addPeriksa = $('.addperiksa');
-        const addDownload = $('.adddownload');
-        
-
-
-        const table =$('#table_id').DataTable( {
-            processing: true,
-            serverSide: true,
-            ajax: {
-                url: <?php echo base_url('Permissionrequestrpt/requestdata');?>,
-                type: POST,
-                data: data=>{
-                    data.from_date:$('#from_date').val(),
-                    data.to_date:$('#to_date').val(),
-                    data.status:$('#status').val(),
-                },
-                dataSrc: res =>{
-                    console.log(res.data)
-                    return res.data
-                },
-                error: (xhr, error, thrown) => {
-                    console.log(xhr, error, thrown)
-                }
-            },
-            columns: [
-                { data: id },
-                { data: suratjalan },
-                { data: Tenant },
-                { data: kettipesuratjalan },
-                { data: Judul },
-                { data: Mulai },
-                { data: Selesai },
-                { data: created_at },
-                { data: ketstatus }
-            ],
-            order: [[ 0, desc ]],
-            columnDefs: [
-                {
-                    targets: [ 0 ],
-                    visible: false,
-                    searchable: false
-                }
-            ]
-    } );
-
-    
-    $('#from_date').datepicker();
-    $('#to_date').datepicker();
-
-    addPeriksa.click(function() {
-        alert(1);
-        table.ajax.reload();
-    })
-    
+    $('#table_id').DataTable({
+        "order": [[ 0, "desc" ]]
+    });
+    listdata();
 } );
 
 
