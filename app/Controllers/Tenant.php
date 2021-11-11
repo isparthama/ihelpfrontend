@@ -113,7 +113,7 @@ class Tenant extends BaseController {
         $data['title']='Informasi Akun iHelp';
         $data['message']=view('email_template_mail_password',$data);
 
-        $this->sentemail($data);
+        return $this->sentemail($data);
     }
     function sentemail($data){
         $attachment='';
@@ -152,12 +152,11 @@ class Tenant extends BaseController {
 
         $result=$email->send();
 
-        if(!$result){
-            echo 'email sent successfully';
-			return false;
+        if($result){
+            return redirect()->to(base_url('tenant'));
 		}else{
             $email->printDebugger();
-			return true;
+			return false;
 		}
     }
     public function getdata(){
