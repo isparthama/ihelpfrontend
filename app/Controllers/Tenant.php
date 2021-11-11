@@ -9,6 +9,7 @@ use App\Models\M_business_groupModel;
 use App\Models\M_business_typeModel;
 use App\Models\M_tenant_statusModel;
 use App\Models\M_role_statusModel;
+use App\Models\M_userModel;
 
 class Tenant extends BaseController {
     public $SERVER;
@@ -18,6 +19,7 @@ class Tenant extends BaseController {
     var $m_unit_codeModel=null;
     var $m_tenant_statusModel=null;
     var $m_role_statusModel=null;
+    var $m_usermodel=null;
 
     public function __construct()
     {
@@ -28,6 +30,7 @@ class Tenant extends BaseController {
         $this->m_business_typeModel=new M_business_typeModel();
         $this->m_tenant_statusModel=new M_tenant_statusModel();
         $this->m_role_statusModel=new M_role_statusModel();
+        $this->m_usermodel=new M_userModel();
     }
 
     public function index(){
@@ -90,18 +93,75 @@ class Tenant extends BaseController {
         );
         
         if ($result){
-            return redirect()->to(base_url('tenant'));
+            if ($this->runsendemail($result->id)){
+                return redirect()->to(base_url('tenant'));
+            } else {
+                echo 'Fail to send email';
+            }
         } else {
             echo 'gagal';
         }
     }
 
-    public function getdata(){
-        $result=$this->model->get($this->request->getGet('id'))->getRow();
+    function runsendemail($id){
+        $result=$this->model->get($id)->getRow();
         
-        
+        $resultuser=$this->m_usermodel->getbyemail($result->Email)->getRow();
+
+        $data['to']=$resultuser->email;
+        $data['data']=$resultuser;
+        $data['title']='Informasi Akun iHelp';
+        $data['message']=view('email_template_mail_password',$data);
+
+        $this->sentemail($data);
+    }
+    function sentemail($data){
+        $attachment='';
+        $to=$data['to'];
+        $title=$data['title'];
+        $message=$data['message'];
 
         
+        $message=view('email_template_mail_password',$data);
+        
+        // // : ihelp@cowellcommercial.com pswd: Abcd_1234 stmp: mail.cowellcommercial.com port:587
+        $config['protocol']    = 'smtp';
+        $config['SMTPHost']    = 'mail.cowellcommercial.com';
+        $config['SMTPPort']    = '587';
+        $config['SMTPTimeout'] = '7';
+        $config['SMTPUser']    = 'ihelp@cowellcommercial.com';
+        $config['SMTPPass']    = 'Abcd_1234';
+        $config['charset']    = 'utf-8';
+        $config['newline']    = "\r\n";
+        $config['SMTPCrypto']    = "";
+        $config['mailType'] = 'html'; // or html
+        $mail_config['send_multipart'] = FALSE;
+        $config['validation'] = TRUE; // bool whether to validate email or not    
+
+        $email = \Config\Services::email($config);
+
+        // $email = \Config\Services::email();
+
+		$email->setFrom('ihelp@cowellcommercial.com','ihelp');
+		$email->setTo($to);
+
+		// $email->attach($attachment);
+
+		$email->setSubject($title);
+		$email->setMessage($message);
+
+        $result=$email->send();
+
+        if(!$result){
+            echo 'email sent successfully';
+			return false;
+		}else{
+            $email->printDebugger();
+			return true;
+		}
+    }
+    public function getdata(){
+        $result=$this->model->get($this->request->getGet('id'))->getRow();
         echo json_encode($result);
     }
 }
