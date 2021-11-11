@@ -217,6 +217,7 @@ class Permissionrequest extends BaseController {
         $message='<html>content email</html>';
 
         if ($result->statusid==1){
+            $to=$result->createdtoemail;
             $message=view('email_template_permission_requested',$data);
         }
         if ($result->statusid==4){

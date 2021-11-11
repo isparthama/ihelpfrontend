@@ -97,12 +97,15 @@ class M_surat_jalan_progress extends BaseController {
         $to='isparthama@gmail.com';
         $title='New Permission Requested!';
         $message='<html>content email</html>';
-
-        $result->statusid=4;
+        $cc='';
+        
         if ($result->statusid==1){
+            $to="td@cowellcommercial.com";
             $message=view('email_template_permission_requested',$data);
         }
-        if ($result->statusid==4){
+        if ($result->statusid==2){
+            $to=$result->email;
+            $cc=$result->cc;
             $title='Permission Approved!';
             $message=view('email_template_permission_approved',$data);
         }
@@ -127,6 +130,9 @@ class M_surat_jalan_progress extends BaseController {
 
 		$email->setFrom('ihelp@cowellcommercial.com','ihelp');
 		$email->setTo($to);
+        if ($cc!='') {
+            $email->setCC($cc);
+        }
 
 		 $email->attach($attachment);
 
@@ -134,6 +140,9 @@ class M_surat_jalan_progress extends BaseController {
 		$email->setMessage($message);
 
         $result=$email->send();
+
+        echo dd($email);
+        exit;
 		if(! $result){
             return false;
 		}else{
