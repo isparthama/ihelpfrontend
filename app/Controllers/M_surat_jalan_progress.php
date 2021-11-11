@@ -141,8 +141,6 @@ class M_surat_jalan_progress extends BaseController {
 
         $result=$email->send();
 
-        echo dd($email);
-        exit;
 		if(! $result){
             return false;
 		}else{
