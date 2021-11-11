@@ -622,6 +622,9 @@ function applyrole(){
 
             });
 
+            $('#start_time').val(data.time_start);
+            $('#end_time').val(data.time_end);
+
         }
     );
     
