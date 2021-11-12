@@ -458,9 +458,9 @@ function view(id){
             $('#lbunit').html(data.tenant_name);
             $('#lbcategory').html(data.category);
             $('#lbstart_date').html(data.start_date);
-            $('#lbstart_time').html(data.start_time);
+            $('#lbstart_time').html(data.waktumulai);
             $('#lbend_date').html(data.end_date);
-            $('#lbend_time').html(data.end_time);
+            $('#lbend_time').html(data.waktuselesai);
             
             $('#lbtitle').html(data.Judul);
             $('#lbtenant_pic').html(data.Pic);
@@ -621,9 +621,6 @@ function applyrole(){
                 maxDate: "+"+(data.max_end-1)+"D"
 
             });
-
-            $('#start_time').val(data.time_start);
-            $('#end_time').val(data.time_end);
 
         }
     );

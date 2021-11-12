@@ -67,7 +67,9 @@ class M_suratjalanModel extends Model
         '$Kontak',
         '$Judul',
         '$Mulai',
+        '$start_time',
         '$Selesai',
+        '$end_time',
         '$tenant_pic',
         '$hp_pic',
         '$Detail_Deskripsi',
@@ -77,6 +79,7 @@ class M_suratjalanModel extends Model
         '$json_multitime',
         '".$user['token']."'
         ";
+        
         
         $result=$this->db->query($sql)->getRow();
 
@@ -196,4 +199,15 @@ class M_suratjalanModel extends Model
         return $result;     
 
     }
+
+    public function getdata($data){
+        $sql="exec m_suratjalan_report 
+            '".$data['from_date']."',
+            '".$data['to_date']."',
+            '".$data['status']."'
+        ";
+        
+        return $this->db->query($sql);
+    }
+
 }

@@ -30,6 +30,7 @@
       <?php if ($user['role']==2){?>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
+          <?php if ($user['isadmin']==1){?>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Master</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -38,6 +39,7 @@
               <a class="dropdown-item" href="<?php echo base_url('staff');?>">Staff</a>
             </div>
           </li>
+          <?php }?>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">

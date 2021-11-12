@@ -71,4 +71,13 @@ class Permissionrequestrpt extends BaseController {
         }
 
     }
+
+    public function printreport(){
+        $data['from_date']=$this->request->getPost('from_date');
+        $data['to_date']=$this->request->getPost('to_date');
+        $data['status']=$this->request->getPost('status');
+
+        $data["data"]=$this->model->getdata($data)->getResult();
+        echo view("report_permisionrequest.php",$data);
+    }
 }
