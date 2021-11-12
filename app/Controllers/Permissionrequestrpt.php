@@ -3,14 +3,20 @@
 namespace App\Controllers;
 
 use App\Models\M_suratjalanModel;
+use App\Models\M_suratjalanfacilityModel;
+use App\Models\M_suratjalanitemModel;
 
 class Permissionrequestrpt extends BaseController {
     public $SERVER;
     var $model=null;
+    var $m_suratjalanfacilitymodel=null;
+    var $m_suratjalanitemmodel=null;
 
     public function __construct()
     {
         $this->model=new M_suratjalanModel();
+        $this->m_suratjalanfacilitymodel=new M_suratjalanfacilityModel();
+        $this->m_suratjalanitemmodel=new M_suratjalanitemModel();
 		
     }
 
@@ -77,7 +83,23 @@ class Permissionrequestrpt extends BaseController {
         $data['to_date']=$this->request->getPost('to_date');
         $data['status']=$this->request->getPost('status');
 
-        $data["data"]=$this->model->getdata($data)->getResult();
-        echo view("report_permisionrequest.php",$data);
+        
+        $result=$this->model->getdata($data)->getResult();
+        foreach ($result as $row){
+            $row->facility=$this->m_suratjalanfacilitymodel->getbysuratjalanid($row->id)->getResult();
+            $row->item=$this->m_suratjalanitemmodel->getbysuratjalanid($row->id)->getResult();
+        }
+
+        $data["data"]=$result;
+        
+
+        $options = new \Dompdf\Options();
+        $options->setIsRemoteEnabled(true);
+        
+        $dompdf = new \Dompdf\Dompdf($options); 
+        $dompdf->loadHtml(view('report_permisionrequest',$data));
+        $dompdf->setPaper('A4', 'portrait');
+        $dompdf->render();
+        $dompdf->stream('Laporan Surat Ijin.pdf',array('Attachment'=>0));
     }
 }
