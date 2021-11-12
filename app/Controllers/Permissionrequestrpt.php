@@ -98,7 +98,7 @@ class Permissionrequestrpt extends BaseController {
         
         $dompdf = new \Dompdf\Dompdf($options); 
         $dompdf->loadHtml(view('report_permisionrequest',$data));
-        $dompdf->setPaper('A4', 'portrait');
+        $dompdf->setPaper('A4', 'landscape');
         $dompdf->render();
         $dompdf->stream('Laporan Surat Ijin.pdf',array('Attachment'=>0));
     }

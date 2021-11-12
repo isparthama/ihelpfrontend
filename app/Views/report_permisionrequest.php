@@ -1,8 +1,15 @@
+<head>
+    <style>
+        html {
+            font: 12px "Fira Sans", sans-serif;
+        }
+    </style>
+</head>
 <center><strong>Daftar Surat Ijin Dikeluarkan TD Untuk Tenant</strong></center>
 <center>Tanggal <?php echo $from_date;?> s/d <?php echo $from_date;?></center>
 <p></p>
 <table width="100%">
-    <theader>
+    
         <tr>
             <th>Tenant</th>
             <th>PIC</th>
@@ -13,6 +20,7 @@
             <th>Barang</th>
             <th>Status</th>
         </tr>
+    
         <?php foreach($data as $row){?>
             <tr>
             <td><?php echo $row->tenant_name;?></td>
@@ -41,5 +49,5 @@
             <td><?php echo $row->ketstatus?></td>
             </tr>   
         <?php }?>
-    </theader>
+    
 <table>
