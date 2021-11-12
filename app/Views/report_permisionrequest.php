@@ -6,7 +6,7 @@
     </style>
 </head>
 <center><strong>Daftar Surat Ijin Dikeluarkan TD Untuk Tenant</strong></center>
-<center>Tanggal <?php echo $from_date;?> s/d <?php echo $from_date;?></center>
+<center>Tanggal <?php echo $from_date;?> s/d <?php echo $to_date;?></center>
 <p></p>
 <table width="100%">
     
