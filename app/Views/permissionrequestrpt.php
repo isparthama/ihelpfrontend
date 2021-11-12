@@ -26,10 +26,9 @@
             <div id='elend_time'>
                 <select class="form-control" id='status' name='status'>
                     <option value="">Pilih Status</option>
-                    <option value="1">Open</option>
-                    <option value="2">On Progress</option>
-                    <option value="3">Approved</option>
-                    <option value="4">Disapproved</option>
+                    <?php foreach ($m_surat_ijin_status as $row){?>
+                    <option value="<?php echo $row->id?>"><?php echo $row->Keterangan?></option>
+                    <?php }?>
 
                 </select>
             </div>
