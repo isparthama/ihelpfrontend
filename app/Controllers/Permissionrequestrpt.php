@@ -5,18 +5,21 @@ namespace App\Controllers;
 use App\Models\M_suratjalanModel;
 use App\Models\M_suratjalanfacilityModel;
 use App\Models\M_suratjalanitemModel;
+use App\Models\M_surat_ijin_statusModel;
 
 class Permissionrequestrpt extends BaseController {
     public $SERVER;
     var $model=null;
     var $m_suratjalanfacilitymodel=null;
     var $m_suratjalanitemmodel=null;
+    var $m_surat_ijin_status=null;
 
     public function __construct()
     {
         $this->model=new M_suratjalanModel();
         $this->m_suratjalanfacilitymodel=new M_suratjalanfacilityModel();
         $this->m_suratjalanitemmodel=new M_suratjalanitemModel();
+        $this->m_surat_ijin_status=new M_surat_ijin_statusModel();
 		
     }
 
@@ -25,6 +28,7 @@ class Permissionrequestrpt extends BaseController {
 
         $data['user']=session()->get('userinfo');
         $data['data']=$this->model->getall(0,0)->getResult();
+        $data['m_surat_ijin_status']=$this->m_surat_ijin_status->getall()->getResult();
 
         echo view('menu',$data);
         echo view('permissionrequestrpt',$data);
