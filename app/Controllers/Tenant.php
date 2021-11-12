@@ -90,7 +90,7 @@ class Tenant extends BaseController {
         $CECell_Number,
         $CEHome_Number,
         $CEWork_Number
-        );
+        )->getRow();
         
         if ($result){
             if ($this->runsendemail($result->id)){
@@ -155,7 +155,7 @@ class Tenant extends BaseController {
         if($result){
             return redirect()->to(base_url('tenant'));
 		}else{
-            $email->printDebugger();
+            // echo dd($email);
 			return false;
 		}
     }

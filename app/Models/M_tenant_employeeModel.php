@@ -78,8 +78,7 @@ class M_tenant_employeeModel extends Model
             }
 
        try {
-            $this->db->query($sql);
-            return true;
+            return $this->db->query($sql);
        } catch (Exception  $e){
             return false;
        }
