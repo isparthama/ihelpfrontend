@@ -35,7 +35,7 @@
 
             <td><?php foreach($row->facility as $rowf){?>
                 <?php echo $rowf->keterangan.
-                "<br>Tgl: ".$rowf->from_date." s/d ".$rowf->to_date.
+                "<br>Tgl: ".$rowf->tgl_mulai." s/d ".$rowf->tgl_selesai.
                 "<br>Waktu: ".str_replace(':00.0000000','',$rowf->from_time)." s/d ".str_replace(':00.0000000','',$rowf->to_time)
                 ;?>
                 
