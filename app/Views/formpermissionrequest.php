@@ -83,7 +83,7 @@
     <tr>
         <td width="40%">Jam</td>
         <td width="5">:</td>
-        <td><?php echo $suratjalan->start_time;?> s/d <?php echo $suratjalan->end_time;?></td>
+        <td><?php echo $suratjalan->waktumulai;?> s/d <?php echo $suratjalan->waktuselesai;?></td>
     </tr>
 </table>
 <p><strong>Persyaratan</strong>
