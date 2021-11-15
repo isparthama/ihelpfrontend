@@ -155,8 +155,8 @@
                     </tr>
                     <tr>
                         
-                        <td><input class="form-control" type='hidden' id='itemcode' name='itemcode[]'><input class="form-control" type='text' id='itemname' name='itemname[]'></td>
-                        <td><input class="form-control" type='hidden' id='note' name='note[]'><input class="form-control" type='number' id='quantity' name='quantity[]'></td>
+                        <td><input class="form-control" type='hidden' id='itemcode' name='itemcode[]'><input class="form-control" type='text' id='itemname' name='itemname[]'  required></td>
+                        <td><input class="form-control" type='hidden' id='note' name='note[]'><input class="form-control" type='number' id='quantity' name='quantity[]'  required></td>
                         
                     </tr>
                 </table>
@@ -176,7 +176,7 @@
                     <th>Time To </th>
                 </tr>
                 <tr>
-                    <td><select class="form-control" type='text' id='idfacility' name='idfacility[]'>
+                    <td><select class="form-control" type='text' id='idfacility' name='idfacility[]' required>
                         <option value=''>Pilih Facility</option>
                         <?php foreach($facility as $row){?>
                             <option value='<?php echo $row->id;?>'><?php echo $row->Keterangan;?></option>
@@ -384,7 +384,7 @@ function showlable(){
     $('#btnmultitime').hide();
 }
 function additem(){
-    $('#itemtbl tr:last').after('<tr><td><input class="form-control" type="hidden" id="itemcode" name="itemcode[]"><input class="form-control" type="text" id="itemname" name="itemname[]"></td><td><input class="form-control" type="hidden" id="note" name="note[]"><input class="form-control" type="number" id="quantity" name="quantity[]"></td></tr>');
+    $('#itemtbl tr:last').after('<tr><td><input class="form-control" type="hidden" id="itemcode" name="itemcode[]"><input class="form-control" type="text" id="itemname" name="itemname[]" required></td><td><input class="form-control" type="hidden" id="note" name="note[]" required><input class="form-control" type="number" id="quantity" name="quantity[]"></td></tr>');
 }
 
 function addfacility(){
@@ -400,7 +400,7 @@ function addfacility(){
     var end_time=$('#end_time').val();
 
 
-    $('#facilitytbl tr:last').after('<tr><td><select class="form-control" type="text" id="idfacility" name="idfacility[]"><option value="">Pilih Facility</option><?php echo $stroptfacility;?></select></td><td><input class="form-control" type="text" id="from_date" name="from_date[]" value="'+start_date+'"></td><td><input class="form-control" type="time" id="from_time" name="from_time[]" value="'+start_time+'"></td><td><input class="form-control" type="text" id="to_date" name="to_date[]" value="'+end_date+'"></td><td><input class="form-control" type="time" id="to_time" name="to_time[]" value="'+end_time+'"></td></tr>');
+    $('#facilitytbl tr:last').after('<tr><td><select class="form-control" type="text" id="idfacility" name="idfacility[]" required><option value="">Pilih Facility</option><?php echo $stroptfacility;?></select></td><td><input class="form-control" type="text" id="from_date" name="from_date[]" value="'+start_date+'"></td><td><input class="form-control" type="time" id="from_time" name="from_time[]" value="'+start_time+'"></td><td><input class="form-control" type="text" id="to_date" name="to_date[]" value="'+end_date+'"></td><td><input class="form-control" type="time" id="to_time" name="to_time[]" value="'+end_time+'"></td></tr>');
 }
 
 function addmulitime(){

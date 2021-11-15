@@ -67,7 +67,7 @@
           </li>
         </ul>
         <?php } else {?>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="<?php echo base_url('Permissionrequest');?>">Surat Ijin <span class="sr-only"></span></a>
