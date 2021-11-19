@@ -5,18 +5,21 @@ namespace App\Controllers;
 use App\Models\T_transaksiModel;
 use App\Models\M_service_statusModel;
 use App\Models\M_business_groupModel;
+use App\Models\M_commentModel;
 
 class Servicerpt extends BaseController {
     public $SERVER;
     var $model=null;
     var $m_service_status=null;
     var $m_business_group=null;
+    var $t_transaksi_progressModel=null;
 
     public function __construct()
     {
         $this->model=new T_transaksiModel();
         $this->m_service_status=new M_service_statusModel();
         $this->m_business_group=new M_business_groupModel();
+        $this->m_commentModel=new M_commentModel();
 		
     }
 
@@ -24,7 +27,8 @@ class Servicerpt extends BaseController {
         if(! session()->get('userinfo')) return redirect()->to(base_url('Login'));
 
         $data['user']=session()->get('userinfo');
-        $data['data']=$this->model->getall(0,0)->getResult();
+        $result=$this->model->getall(0,0)->getResult();
+        $data['data']=$result;
         $data['m_service_status']=$this->m_service_status->getall()->getResult();
         $data['m_business_group']=$this->m_business_group->getall()->getResult();
 
@@ -91,6 +95,14 @@ class Servicerpt extends BaseController {
         $data['jenis_laporan']=$m_business_group->Keterangan;
         
         $result=$this->model->getdata($data)->getResult();
+
+        foreach ($result as $row){
+            $result_comments=$this->m_commentModel->getall($row->No)->getResult();
+            foreach ($result_comments as $row_comment){
+                $row->ProgressLaporanDetail+= "Progress By:".$row->nama_lengkap."Progress Detail".$row_comment->Keterangan."Progress Date".$row_comment->created_at.";";
+            }
+        }
+
         $data["data"]=$result;
         
 
