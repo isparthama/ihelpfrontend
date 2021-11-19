@@ -471,6 +471,7 @@ function view(id){
             $('#lbKontak').html(data.Kontak);
             $('#lbKantor').html(data.Kantor);
             $('#lbAlamat').html(data.Alamat);
+            $("#alasan").val(data.alasan_reject);
 
             $('#itemtbl').find("tr:gt(0)").remove();
             var item=JSON.parse(data.json_items);
@@ -538,10 +539,11 @@ function validate(){
 function approve(statusid){
     var id = $("#id").val();
     var alasan = $("#alasan").val();
-    alert(alasan);
     
     if (statusid==4&alasan==''){
         alert('Mohon Input Alasan Reject');
+        $('#btnapprove').attr("disabled", true);
+        $("#alasan").val('');
         $('#elalasan').show();
         $('#txalasan').show();
         return false;
@@ -549,7 +551,6 @@ function approve(statusid){
         $('#elalasan').hide();
     }
 
-    alert(id);
     $.ajax({
         url: '<?php echo base_url('m_surat_jalan_progress');?>',
         type: 'POST',
@@ -568,7 +569,7 @@ function approve(statusid){
 
                 if (statusid==4) status_ket='Rejected';
 
-                alert(status_ket+data.id);
+                alert(status_ket);
                 $('#statusrow'+id).html(status_ket);
                 listdata();
             }

@@ -402,7 +402,6 @@ function view(id){
 
             var content='';
             if (data.hasaccess){
-                
                 if (data.json_otheropsi!=null){
                     var otheropsi=JSON.parse(data.json_otheropsi);
                     $.each(otheropsi, function(index,obj){

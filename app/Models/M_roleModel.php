@@ -20,4 +20,38 @@ class M_roleModel extends Model
 
         return $this->db->query($sql);
     }
+
+    public function store(
+        $id,
+        $todo,
+        $role_name,
+        $keterangan
+        ) {
+            if ($id>0){
+                if ($todo=="delete"){
+                    $sql="[dbo].[m_role_delete]
+                    '$id'
+                    ";
+                } else {
+                    $sql="[dbo].[m_role_update]
+                    '$id',
+                    '$role_name',
+                    '$keterangan'
+                    ";
+                    }
+            } else {
+                $sql="[dbo].[m_role_create]
+                '$role_name',
+                '$keterangan'           
+                ";
+            }
+
+            try {
+               
+                    return true;
+            } catch (Exception  $e){
+                    return false;
+            }
+        
+    }
 }

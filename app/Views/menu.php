@@ -37,6 +37,7 @@
               <a class="dropdown-item" href="<?php echo base_url('unit');?>">Unit</a>
               <a class="dropdown-item" href="<?php echo base_url('tenant');?>">Tenant</a>
               <a class="dropdown-item" href="<?php echo base_url('staff');?>">Staff</a>
+              <a class="dropdown-item" href="<?php echo base_url('role');?>">Role</a>
             </div>
           </li>
           <?php }?>

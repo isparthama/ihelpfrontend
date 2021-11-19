@@ -76,4 +76,15 @@ class T_transaksiModel extends Model
 
       return $this->db->query($sql);
     }
+
+    public function getdata($data){
+        $sql="exec t_transaksi_report 
+            '".$data['from_date']."',
+            '".$data['to_date']."',
+            '".$data['jenis_laporan']."',
+            '".$data['status']."'
+        ";
+        
+        return $this->db->query($sql);
+    }
 }
